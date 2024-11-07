@@ -1,0 +1,5248 @@
+#VRML_SIM R2023b utf8
+
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackground.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/backgrounds/protos/TexturedBackgroundLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/CarpetFibers.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/apartment_structure/protos/Wall.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/apartment_structure/protos/Window.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/appearances/protos/BakelitePlastic.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/apartment_structure/protos/Door.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/kitchen/fridge/protos/Fridge.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/kitchen/components/protos/Sink.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/kitchen/components/protos/Worktop.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/cabinet/protos/Cabinet.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/tables/protos/Table.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/living_room_furniture/protos/Sofa.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/television/protos/Television.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/plants/protos/PottedTree.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/lights/protos/FloorLight.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/bathroom/protos/Toilet.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/bathroom/protos/Bathtube.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/bedroom/protos/Bed.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/tables/protos/Desk.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/chairs/protos/OfficeChair.proto"
+EXTERNPROTO "https://raw.githubusercontent.com/cyberbotics/webots/R2023b/projects/objects/stairs/protos/StraightStairs.proto"
+
+WorldInfo {
+}
+Viewpoint {
+  orientation -0.4575153328113489 0.06550611331246882 0.8867855825176764 2.889014040603736
+  position -213.44633458274063 24.218279560168604 40.559480974848825
+}
+TexturedBackground {
+}
+TexturedBackgroundLight {
+}
+Solid {
+  translation -68.0025 -143.659 -0.24
+  rotation 0 0 1 -0.523595307179586
+  children [
+    Solid {
+      translation -166.748 31.7595 1.65
+      rotation 0 0 -1 -2.356185307179586
+      children [
+        Shape {
+          appearance CarpetFibers {
+          }
+          geometry Box {
+            size 10 12.5 0.1
+          }
+        }
+      ]
+      name "LOBBYLEFT_BASE"
+    }
+    Solid {
+      translation -179.487 44.1215 1.65
+      rotation 0 0 1 2.35619
+      children [
+        Shape {
+          appearance CarpetFibers {
+          }
+          geometry Box {
+            size 10 11.5 0.1
+          }
+        }
+      ]
+      name "LOBBYRIGHT_BASE"
+    }
+    Solid {
+      translation -211.928 54.5641 1.65
+      rotation 0 0 1 2.87979
+      children [
+        Shape {
+          appearance CarpetFibers {
+          }
+          geometry Box {
+            size 65 12.1 0.1
+          }
+        }
+      ]
+      name "RIGHTWING"
+    }
+    Solid {
+      translation -171.839 39.5389 1.65
+      rotation 0 0 1 2.35619
+      children [
+        Shape {
+          appearance CarpetFibers {
+          }
+          geometry Box {
+            size 13.5 16 0.1
+          }
+        }
+      ]
+      name "LOBBYCENTER_BASE"
+    }
+    Solid {
+      translation -11.99 0 0
+      children [
+        Shape {
+        }
+      ]
+      name "RIGHT_LOBBY_HALL_BASE"
+    }
+    Solid {
+      translation -228.365 59.0443 1.65
+      rotation 0 0 1 1.309
+      children [
+        Shape {
+          appearance CarpetFibers {
+          }
+          geometry Box {
+            size 35 15 0.1
+          }
+        }
+      ]
+      name "ROOM_BLOCK(2)"
+    }
+    Solid {
+      translation -201.1 51.7379 1.65
+      rotation 0 0 1 1.309
+      children [
+        Shape {
+          appearance CarpetFibers {
+          }
+          geometry Box {
+            size 35 15 0.1
+          }
+        }
+      ]
+      name "ROOM_BLOCK(3)"
+    }
+  ]
+  name "floor"
+}
+Solid {
+  children [
+    Door {
+      hidden translation_5 0.0010000000000004866 -1.7208456881689926e-15 2.886579864025407e-15
+      hidden rotation_5 0 0 1 0
+      translation -243.523 28.3929 1.41
+      rotation 0 0 -1 0.785399
+      name "door(6)"
+      size 0.1 1 5
+      wallAppearance BakelitePlastic {
+      }
+    }
+    Door {
+      hidden translation_5 0.001284030281749407 5.910929334213e-05 3.1086244689504383e-15
+      hidden rotation_5 0 0 -1 0.0005979212675370437
+      translation -222.969 11.0257 1.45
+      rotation 0 0 1 -2.3561953071795863
+      name "door(5)"
+      size 0.1 1 5
+      position -0.000597921267231891
+      wallAppearance BakelitePlastic {
+      }
+    }
+    Door {
+      hidden translation_5 0.0012840302817492405 5.910929334218551e-05 3.1086244689504383e-15
+      hidden rotation_5 0 0 -1 0.0005979212675370437
+      translation -227.238 15.2478 1.45
+      rotation 0 0 1 -2.3561953071795863
+      name "door(4)"
+      size 0.1 1 5
+      position -0.0005979212672315923
+      wallAppearance BakelitePlastic {
+      }
+    }
+    Door {
+      hidden translation_5 0.0012840302817493515 5.910929334224102e-05 3.1086244689504383e-15
+      hidden rotation_5 0 0 -1 0.0005979212675370437
+      translation -229.665 12.1295 1.45
+      rotation 0 0 -1 -0.785395307179586
+      name "door(3)"
+      size 0.1 1 5
+      position -0.000597921267231891
+      wallAppearance BakelitePlastic {
+      }
+    }
+    Door {
+      hidden translation_5 0.0012840302817492266 5.910929334229653e-05 3.1086244689504383e-15
+      hidden rotation_5 0 0 -1 0.0005979212675370437
+      translation -225.566 7.98617 1.45
+      rotation 0 0 -1 -0.785395307179586
+      name "door(12)"
+      size 0.1 1 5
+      position -0.0005979212672316788
+      wallAppearance BakelitePlastic {
+      }
+    }
+    OfficeChair {
+      hidden position_0_0 4.083864278204071e-06
+      hidden translation_1 0 0 5.551115123125783e-17
+      hidden rotation_1 0 0 1 4.083896958192597e-06
+      translation -201.50399943099194 -24.578399836113505 1.4698587281614675
+      rotation 2.3754833753638107e-06 -1.5767560047798213e-05 0.9999999998728705 0.26179900003289963
+      name "office chair(2)"
+    }
+    OfficeChair {
+      hidden position_0_0 4.083864278204071e-06
+      hidden translation_1 0 0 5.551115123125783e-17
+      hidden rotation_1 0 0 1 4.083896958192597e-06
+      translation -201.05799943099194 -26.192699836113505 1.4698587281614675
+      rotation 2.3754833753638107e-06 -1.5767560047798213e-05 0.9999999998728705 0.26179900003289963
+      name "office chair(1)"
+    }
+    OfficeChair {
+      hidden position_0_0 4.083864278204071e-06
+      hidden translation_1 0 0 5.551115123125783e-17
+      hidden rotation_1 0 0 1 4.083896958192597e-06
+      translation -200.64999943099195 -27.699999836113506 1.4698587281614675
+      rotation 2.3754833753638107e-06 -1.5767560047798213e-05 0.9999999998728705 0.26179900003289963
+    }
+    Sofa {
+      translation -192.771 -15.967 1.47
+      rotation 0 0 1 -1.3089953071795861
+      name "sofa(1)"
+    }
+    Sofa {
+      translation -189.62 -27.7408 1.47
+      rotation 0 0 1 1.8326
+    }
+    Wall {
+      translation -200.57 -22.2681 1.47
+      rotation 0 0 1 -2.8798053071795864
+      name "wall(16)"
+      size 0.1 2.5 5
+      appearance BakelitePlastic {
+      }
+    }
+    Table {
+      translation -200.159 -26.0839 1.65
+      rotation 0 0 1 1.8326
+      name "table(4)"
+      size 5 1 0.74
+    }
+    Wall {
+      translation -199.888 -24.8086 5.41
+      rotation 0 0 1 -2.8798053071795864
+      name "wall(15)"
+      size 0.1 7.6 1
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -199.888 -24.8086 1.47
+      rotation 0 0 1 -2.8798053071795864
+      name "wall(14)"
+      size 0.1 7.6 1
+      appearance BakelitePlastic {
+      }
+    }
+    Door {
+      hidden translation_5 0.001071038800445956 1.4800438867479393e-05 1.1102230246251565e-16
+      hidden rotation_5 0 0 -1 0.00014955303955401756
+      translation -201.019 -20.6512 1.45
+      rotation 0 0 1 0.261799
+      name "door(2)"
+      size 0.1 1 5
+      position -0.00014955303913311013
+      wallAppearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -203.607 -20.7742 1.47
+      rotation 0 0 1 -1.3090053071795866
+      name "wall(13)"
+      size 0.1 5.1 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -201.338 -29.131 1.47
+      rotation 0 0 1 -1.3090053071795866
+      name "wall(12)"
+      size 0.1 5.1 5
+      appearance BakelitePlastic {
+      }
+    }
+    Table {
+      translation -205.439 -3.98478 1.65
+      rotation 0 0 1 0.785402
+      name "table(3)"
+      size 2 2 0.74
+    }
+    Table {
+      translation -192.177 -34.241 1.65
+      rotation 0 0 1 -0.261795307179586
+      name "table(2)"
+      size 2 2 0.74
+    }
+    Table {
+      translation -210.652 -9.79911 1.65
+      rotation 0 0 1 0.785402
+      name "table(1)"
+      size 2 2 0.74
+    }
+    Table {
+      translation -199.946 -35.68 1.65
+      rotation 0 0 1 -0.261795307179586
+      size 2 2 0.74
+    }
+    Door {
+      hidden translation_5 0.001071038800445956 1.4800438867479393e-05 1.1102230246251565e-16
+      hidden rotation_5 0 0 -1 0.00014955303955401756
+      translation -189.537 -20.8366 1.45
+      rotation 0 0 1 0.261799
+      name "door(1)"
+      size 0.1 1 5
+      position -0.00014955303913311013
+      wallAppearance BakelitePlastic {
+      }
+    }
+    Door {
+      hidden translation_5 0.001071038800445956 1.4800438867479393e-05 1.1102230246251565e-16
+      hidden rotation_5 0 0 -1 0.00014955303955401756
+      translation -189.278 -21.7832 1.45
+      rotation 0 0 1 0.261799
+      size 0.1 1 5
+      position -0.00014955303913311013
+      wallAppearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -190.004 -19.0494 1.47
+      rotation 0 0 1 0.261793
+      name "wall(11)"
+      size 0.1 2.75 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -188.767 -23.6762 1.47
+      rotation 0 0 1 0.261793
+      name "wall(10)"
+      size 0.1 3 5
+      appearance BakelitePlastic {
+      }
+    }
+    Window {
+      translation -190.58 -16.7448 1.48
+      rotation 0 0 1 -2.8797953071795863
+      name "window(1)"
+      size 0.1 2 5
+      bottomWallHeight 1
+      windowHeight 1.5
+      wallAppearance BakelitePlastic {
+      }
+    }
+    Window {
+      translation -188.131 -26.0411 1.48
+      rotation 0 0 1 -2.8797953071795863
+      name "window(9)"
+      size 0.1 2 5
+      bottomWallHeight 1
+      windowHeight 1.5
+      wallAppearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -196.226 -12.5205 1.47
+      rotation 0 0 1 0.261793
+      name "wall(9)"
+      size 0.1 7.1 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -190.205 -32.4822 1.47
+      rotation 0 0 1 0.261793
+      name "wall(8)"
+      size 0.1 7.3 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -193.205 -15.4358 1.47
+      rotation 0 0 -1 1.30901
+      name "wall(7)"
+      size 0.1 4.5 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -189.406 -28.4462 1.47
+      rotation 0 0 1 -1.3090053071795866
+      name "wall(6)"
+      size 0.1 3.7 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -190.961 -15.3138 1.47
+      rotation 0 0 1 0.261793
+      name "wall(5)"
+      size 0.1 1 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -187.742 -27.4824 1.47
+      rotation 0 0 1 0.261793
+      name "wall(4)"
+      size 0.1 1 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -204.431 -27.4466 1.42
+      rotation 0 0 1 -2.8798053071795864
+      name "wall(3)"
+      size 0.1 24.5 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -247.279 32.614 1.42
+      rotation 0 0 -1 0.785408
+      name "wall(2)"
+      size 0.1 12.2 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -195.239 -37.6387 1.47
+      rotation 0 0 1 -1.3090053071795866
+      name "wall(33)"
+      size 0.1 12.4 5
+      appearance BakelitePlastic {
+      }
+    }
+    Solid {
+      translation -68.0025 -143.659 -0.24
+      rotation 0 0 1 -0.523595307179586
+      children [
+        Solid {
+          translation -167.311 31.7604 1.65
+          rotation 0 0 1 2.35619
+          children [
+            Shape {
+              appearance CarpetFibers {
+              }
+              geometry Box {
+                size 10 11.5 0.1
+              }
+            }
+          ]
+          name "LOBBYLEFT_BASE"
+        }
+        Solid {
+          translation -179.487 44.1215 1.65
+          rotation 0 0 1 2.35619
+          children [
+            Shape {
+              appearance CarpetFibers {
+              }
+              geometry Box {
+                size 10.5 11.8 0.1
+              }
+            }
+          ]
+          name "LOBBYRIGHT_BASE"
+        }
+        Solid {
+          translation -211.144 53.9808 1.65
+          rotation 0 0 1 2.87979
+          children [
+            Shape {
+              appearance CarpetFibers {
+              }
+              geometry Box {
+                size 65 11.5 0.1
+              }
+            }
+          ]
+          name "RIGHTWING"
+        }
+        Solid {
+          translation -171.839 39.5389 1.65
+          rotation 0 0 1 2.35619
+          children [
+            Shape {
+              appearance CarpetFibers {
+              }
+              geometry Box {
+                size 13.5 16 0.1
+              }
+            }
+          ]
+          name "LOBBYCENTER_BASE"
+        }
+        Solid {
+          translation -11.99 0 0
+          children [
+            Shape {
+            }
+          ]
+          name "RIGHT_LOBBY_HALL_BASE"
+        }
+        Solid {
+          translation -228.365 59.0443 1.65
+          rotation 0 0 1 1.309
+          children [
+            Shape {
+              appearance CarpetFibers {
+              }
+              geometry Box {
+                size 35 15 0.1
+              }
+            }
+          ]
+          name "ROOM_BLOCK(2)"
+        }
+        Solid {
+          translation -201.1 51.7379 1.65
+          rotation 0 0 1 1.309
+          children [
+            Shape {
+              appearance CarpetFibers {
+              }
+              geometry Box {
+                size 35 15 0.1
+              }
+            }
+          ]
+          name "ROOM_BLOCK(3)"
+        }
+      ]
+      name "floor"
+    }
+  ]
+  name "ridgecrest_west"
+}
+Solid {
+  translation -292.1 -176.6 -0.2
+  rotation 0 0 1 -2.094395307179586
+  children [
+    Cabinet {
+      hidden position_6_0 -0.40834097653745255
+      hidden translation_7 0.07902036377714107 -0.01636160833896877 0
+      hidden rotation_7 0 0 -1 0.4083409765374522
+      hidden position_10_0 0.13053602393964808
+      hidden translation_11 0.022017515449055586 0.0014390834994617574 0
+      hidden rotation_11 0 0 1 0.13053602393964717
+      hidden translation_15 0.1852961240992972 0 0
+      hidden translation_23 0.19410334352105318 0 0
+      hidden translation_31 0.1852470204206047 0 0
+      hidden translation_39 0.14578802515975964 0 0
+      translation -191.22 -45.3595 1.65
+      rotation 0 0 1 -1.8326053071795858
+      name "cabinet(12)"
+      depth 0.3
+    }
+    Cabinet {
+      hidden position_6_0 -0.41325455380838505
+      hidden translation_7 0.07991681411420748 -0.016752084176977905 0
+      hidden rotation_7 0 0 -1 0.41325455380838483
+      hidden position_10_0 0.137584156342223
+      hidden translation_11 0.023199007536663457 0.0015984301794999545 0
+      hidden rotation_11 0 0 1 0.13758415634222423
+      hidden translation_15 0.14524274841168128 0 0
+      hidden translation_23 0.15928037536092293 0 0
+      hidden translation_31 0.1451629368071531 0 0
+      hidden translation_39 0.16183663600759288 0 0
+      translation -194.105 -56.1298 1.65
+      rotation 0 0 1 -1.8326053071795858
+      name "cabinet(11)"
+      depth 0.3
+    }
+    Cabinet {
+      hidden position_6_0 6.406130381549095e-06
+      hidden translation_7 0.0776390196453062 -0.015770137181419036 0
+      hidden rotation_7 0 0 -1 0.40078996574880454
+      hidden position_10_0 -5.446174730749931e-06
+      hidden translation_11 0.01794852428832803 0.0009549555549532851 0
+      hidden rotation_11 0 0 1 0.10631024274982122
+      hidden translation_15 0.17168807214452983 0 0
+      hidden translation_23 0.1462753002603385 0 0
+      hidden translation_31 0.17168870051812643 0 0
+      hidden translation_39 0.2258236123255871 0 0
+      translation -184.706 -62.0597 1.65
+      rotation 0 0 1 2.87978
+      name "cabinet(10)"
+      depth 0.3
+    }
+    Cabinet {
+      hidden position_6_0 -0.40731456599194105
+      hidden translation_7 0.07883286021413269 -0.0162805972249824 0
+      hidden rotation_7 0 0 -1 0.4073145659919411
+      hidden position_10_0 0.11359759677378518
+      hidden translation_11 0.019173733692931412 0.0010902176715897605 0
+      hidden rotation_11 0 0 0.9999999999999999 0.11359759677378323
+      hidden translation_15 0.18645501109377227 0 0
+      hidden translation_23 0.1780341373033768 0 0
+      hidden translation_31 0.18646352506695552 0 0
+      hidden translation_39 0.2164334395271711 0 0
+      translation -185.534 -58.2125 1.65
+      rotation 0 0 1 1.30898
+      name "cabinet(9)"
+      depth 0.3
+    }
+    Cabinet {
+      hidden position_6_0 -0.40915811106136557
+      hidden translation_7 0.07916957751445577 -0.016426239573746337 0
+      hidden rotation_7 0 0 -1 0.409158111061366
+      hidden position_10_0 0.11732976567107427
+      hidden translation_11 0.01980082619318102 0.0011629475761085195 0
+      hidden rotation_11 0 0 1 0.11732976567107375
+      hidden translation_15 0.06257082730479746 0 0
+      hidden translation_23 0.1421642177191088 0 0
+      hidden translation_31 0.0625641664592469 0 0
+      hidden translation_39 0.1007597980088838 0 0
+      translation -183.53 -50.7363 1.65
+      rotation 0 0 1 -1.8326153071795863
+      name "cabinet(8)"
+      depth 0.3
+    }
+    Cabinet {
+      hidden position_6_0 -0.4050434504062836
+      hidden translation_7 0.07841768037890862 -0.01610203007143199 0
+      hidden rotation_7 0 0 -1 0.40504345040628376
+      hidden position_10_0 0.14156226605606193
+      hidden translation_11 0.023865360740056817 0.001692043913264829 0
+      hidden rotation_11 0 0 1 0.14156226605606193
+      hidden translation_15 0.18951108506621497 0 0
+      hidden translation_23 0.19051955001894644 0 0
+      hidden translation_31 0.18683952914845361 0 0
+      hidden translation_39 0.019363984805851043 0 0
+      translation -188.876 -61.0212 1.65
+      rotation 0 0 1 2.87978
+      name "cabinet(7)"
+      depth 0.3
+    }
+    Cabinet {
+      hidden position_6_0 6.406130381556644e-06
+      hidden translation_7 0.07997057532891293 -0.01677566825046989 0
+      hidden rotation_7 0 0 -1 0.4135495623566275
+      hidden position_10_0 0.12874859409095138
+      hidden translation_11 0.021717708938643016 0.0013999966662997798 0
+      hidden rotation_11 0 0 1 0.12874859409094966
+      hidden translation_15 0.1888908507624268 0 0
+      hidden translation_23 0.189614966397399 0 0
+      hidden translation_31 0.1863514290650529 0 0
+      hidden translation_39 0.014278925884779447 0 0
+      translation -185.531 -48.5318 1.65
+      rotation 0 0 1 2.87978
+      name "cabinet(6)"
+      depth 0.3
+    }
+    FloorLight {
+      translation -193.642 -59.8661 1.65
+      rotation 0 0 1 -0.261795307179586
+      name "floor light(8)"
+    }
+    FloorLight {
+      translation -190.349 -60.7485 1.65
+      rotation 0 0 1 -0.261795307179586
+      name "floor light(7)"
+    }
+    FloorLight {
+      translation -186.814 -61.6957 1.65
+      rotation 0 0 1 -0.261795307179586
+      name "floor light(6)"
+    }
+    FloorLight {
+      translation -184.796 -54.9247 1.65
+      rotation 0 0 1 -0.261795307179586
+      name "floor light(5)"
+    }
+    FloorLight {
+      translation -182.658 -52.9403 1.65
+      rotation 0 0 1 -0.261795307179586
+      name "floor light(4)"
+    }
+    FloorLight {
+      translation -184.411 -50.0984 1.65
+      rotation 0 0 1 -0.261795307179586
+      name "floor light(3)"
+    }
+    FloorLight {
+      translation -186.155 -49.6289 1.65
+      rotation 0 0 1 -0.261795307179586
+      name "floor light(2)"
+    }
+    FloorLight {
+      translation -190.584 -48.4448 1.65
+      rotation 0 0 1 -0.261795307179586
+      name "floor light(1)"
+    }
+    Desk {
+      translation -192.92 -59.7839 1.65
+      rotation 0 0 1 -1.8326053071795858
+      name "desk(7)"
+    }
+    Desk {
+      translation -190.746 -57.2633 1.65
+      rotation 0 0 -1 -1.3089953071795861
+      name "desk(6)"
+    }
+    Desk {
+      translation -184.549 -59.1516 1.65
+      rotation 0 0 -1 -1.3089953071795861
+      name "desk(5)"
+    }
+    Desk {
+      translation -184.289 -58.1762 1.65
+      rotation 0 0 -1 -1.3089953071795861
+      name "desk(4)"
+    }
+    Desk {
+      translation -182.489 -51.4343 1.65
+      rotation 0 0 -1 -1.3089953071795861
+      name "desk(3)"
+    }
+    Desk {
+      translation -182.036 -50.3365 1.65
+      rotation 0 0 1 2.87979
+      name "desk(2)"
+    }
+    Desk {
+      translation -185.618 -47.4396 1.65
+      rotation 0 0 1 2.87979
+      name "desk(1)"
+    }
+    Desk {
+      translation -188.971 -46.5427 1.65
+      rotation 0 0 1 2.87979
+    }
+    Bed {
+      translation -183.893 -55.9487 1.65
+      rotation 0 0 1 -1.8325953071795862
+      name "bed(7)"
+    }
+    Bed {
+      translation -187.651 -60.5885 1.65
+      rotation 0 0 1 1.309
+      name "bed(6)"
+    }
+    Bed {
+      translation -191.041 -59.6801 1.65
+      rotation 0 0 1 1.309
+      name "bed(5)"
+    }
+    Bed {
+      translation -194.375 -58.787 1.65
+      rotation 0 0 1 1.309
+      name "bed(4)"
+    }
+    Bed {
+      translation -183.688 -53.7939 1.65
+      rotation 0 0 1 2.8798
+      name "bed(3)"
+    }
+    Bed {
+      translation -182.352 -48.6903 1.65
+      rotation 0 0 1 2.8798
+      name "bed(2)"
+    }
+    Bed {
+      translation -187.681 -47.276 1.65
+      rotation 0 0 1 -1.8325953071795862
+      name "bed(1)"
+    }
+    Bed {
+      translation -191.309 -47.3409 1.65
+      rotation 0 0 1 1.309
+    }
+    Cabinet {
+      hidden position_6_0 -0.013041869076969243
+      hidden translation_7 0.002595258373456484 -1.6923749845243474e-05 0
+      hidden rotation_7 0 0 -0.9999999999999999 0.013041869076968823
+      hidden position_10_0 -5.446174730749931e-06
+      hidden translation_11 0.13448821656310803 0.06656032164162609 0
+      hidden rotation_11 0 0 1 0.9191437073977504
+      hidden translation_15 -0.0029214008651314953 0 0
+      hidden translation_23 -0.0024119126082871797 0 0
+      hidden translation_31 -0.0044356671985234936 0 0
+      hidden translation_39 0.17876398615843608 0 0
+      translation -190.679 -51.6528 1.65
+      rotation 0 0 1 2.87978
+      name "cabinet(5)"
+      depth 0.3
+    }
+    Cabinet {
+      hidden position_6_0 -0.027100195961262483
+      hidden translation_7 0.005392278906262965 -7.307037960707641e-05 0
+      hidden rotation_7 0 0 -1 0.027100195961265165
+      hidden position_10_0 5.446174730798939e-06
+      hidden translation_11 0.021445323279432132 0.0013649571343120337 0
+      hidden rotation_11 0 0 1 0.12712500452877618
+      hidden translation_15 -0.0013949771998380545 0 0
+      hidden translation_23 -5.8723311069708295e-05 0 0
+      hidden translation_31 -0.0041063531994944835 0 0
+      hidden translation_39 0.018507985163997265 0 0
+      translation -191.388 -54.1185 1.65
+      rotation 0 0 1 2.87978
+      name "cabinet(4)"
+      depth 0.3
+    }
+    Cabinet {
+      hidden position_6_0 -0.4137284634884722
+      hidden translation_7 0.0800031741881848 -0.016789977992935357 0
+      hidden rotation_7 0 0 -1 0.4137284634884721
+      hidden position_10_0 0.12821101287387587
+      hidden translation_11 0.021627526553890896 0.0013883458737949106 0
+      hidden rotation_11 0 0 1 0.12821101287387643
+      hidden translation_15 0.19090809264685143 0 0
+      hidden translation_23 0.1919210098614782 0 0
+      hidden translation_31 0.18400854165356706 0 0
+      hidden translation_39 0.020913599634569142 0 0
+      translation -186.653 -52.724 1.65
+      rotation 0 0 1 2.87978
+      name "cabinet(3)"
+      depth 0.3
+    }
+    Toilet {
+      translation -191.326 -52.3354 1.65
+      rotation 0 0 1 2.8798
+      name "toilet(3)"
+    }
+    Toilet {
+      translation -191.568 -53.2244 1.65
+      rotation 0 0 1 2.8798
+      name "toilet(2)"
+    }
+    Toilet {
+      translation -187.302 -53.4444 1.65
+      rotation 0 0 1 2.8798
+      name "toilet(1)"
+    }
+    Bathtube {
+      translation -192.856 -51.257 1.67
+      rotation 0 0 1 -0.2618053071795865
+      name "bathtube(3)"
+    }
+    Bathtube {
+      translation -193.442 -53.2403 1.67
+      rotation 0 0 1 -0.2618053071795865
+      name "bathtube(2)"
+    }
+    Bathtube {
+      translation -188.782 -52.3601 1.67
+      rotation 0 0 1 -0.2618053071795865
+      name "bathtube(1)"
+    }
+    Bathtube {
+      translation -189.315 -54.3498 1.67
+      rotation 0 0 1 -0.2618053071795865
+    }
+    Toilet {
+      translation -187.535 -54.3043 1.65
+      rotation 0 0 1 2.8798
+    }
+    Cabinet {
+      hidden position_6_0 0.0076371819103633444
+      hidden translation_7 -0.0015197844260986788 -5.803463271308873e-06 0
+      hidden rotation_7 0 0 0.9999999999999999 0.007637181910368157
+      hidden position_10_0 0.1107538466981924
+      hidden translation_11 0.01869573679026012 0.0010363719805284721 0
+      hidden rotation_11 0 0 1 0.11075384669819259
+      hidden translation_15 0.19225592722560478 0 0
+      hidden translation_23 0.18981274466212095 0 0
+      hidden translation_31 0.18861056703288606 0 0
+      hidden translation_39 0.023757127289988095 0 0
+      translation -187.318 -55.2064 1.65
+      rotation 0 0 1 2.87978
+      name "cabinet(2)"
+      depth 0.3
+    }
+    PottedTree {
+      translation -196.384 -60.9839 1.65
+      rotation 0 0 1 -0.261795307179586
+      name "potted tree(1)"
+    }
+    Television {
+      translation -198.109 -61.2783 3.37
+      rotation 0 0 1 1.309
+      name "television(1)"
+    }
+    Table {
+      translation -197.646 -59.0839 1.65
+      rotation 0 0 1 -0.261795307179586
+      name "table(3)"
+      size 1 1 0.4
+    }
+    Table {
+      translation -198.5 -56.9378 1.65
+      rotation 0 0 1 -1.8325953071795862
+      name "table(2)"
+      size 1 1 0.74
+    }
+    Sofa {
+      translation -198.97 -58.6622 1.65
+      rotation 0 0 1 -0.261795307179586
+      name "sofa(3)"
+    }
+    Sofa {
+      translation -197.083 -57.3406 1.65
+      rotation 0 0 1 -1.8325953071795862
+      name "sofa(2)"
+    }
+    Worktop {
+      translation -194.259 -53.5615 2.38
+      rotation 0 0 1 -1.8325953071795862
+      name "worktop(7)"
+    }
+    Worktop {
+      translation -194.21 -53.3404 2.38
+      rotation 0 0 1 -1.8325953071795862
+      name "worktop(6)"
+    }
+    Cabinet {
+      hidden position_6_0 -6.406142921008964e-06
+      hidden translation_7 1.2748224412720662e-06 -4.08292843978586e-12 0
+      hidden rotation_7 0 0 -1 6.406113008859535e-06
+      hidden position_10_0 -5.446185392279114e-06
+      hidden translation_11 -9.212222590994576e-07 2.508854235472313e-12 0
+      hidden rotation_11 0 0 -1 5.446165469934237e-06
+      hidden translation_15 0 0 0
+      hidden translation_23 0 0 0
+      hidden translation_31 0 0 0
+      hidden translation_39 0 0 0
+      translation -193.861 -52.685 1.65
+      rotation 0 0 1 2.87979
+      name "cabinet(1)"
+    }
+    Worktop {
+      translation -197.75 -53.1312 2.38
+      rotation 0 0 1 -1.8325953071795862
+      name "worktop(5)"
+    }
+    Worktop {
+      translation -197.563 -52.4641 2.38
+      rotation 0 0 1 -1.8325953071795862
+      name "worktop(4)"
+    }
+    Sink {
+      translation -197.682 -52.4399 2.47
+      rotation 0 0 1 -0.261795307179586
+      name "sink(1)"
+    }
+    Fridge {
+      hidden position_0_0 -4.3948758337387934e-05
+      hidden position_0_1 0.00013184636080706722
+      hidden translation_1 0.36 0.34 1.55
+      hidden rotation_1 0 0 -1 0.0001318463601151914
+      hidden translation_2 0.36 0.34 0.65
+      hidden rotation_2 0 0 1 0.0001318463601151914
+      translation -197.272 -51.7726 1.65
+      rotation 0 0 1 -0.261795307179586
+      name "fridge(1)"
+    }
+    Worktop {
+      translation -193.421 -50.3944 2.38
+      rotation 0 0 1 -1.8325953071795862
+      name "worktop(3)"
+    }
+    Worktop {
+      translation -193.568 -50.9262 2.38
+      rotation 0 0 1 -1.8325953071795862
+      name "worktop(2)"
+    }
+    Worktop {
+      translation -196.914 -50.03 2.38
+      rotation 0 0 1 -1.8325953071795862
+      name "worktop(1)"
+    }
+    FloorLight {
+      translation -194.98 -42.82 1.65
+    }
+    PottedTree {
+      translation -191.647 -43.2699 1.65
+      rotation 0 0 1 -0.261795307179586
+    }
+    Television {
+      translation -193.091 -42.5588 3.37
+      rotation 0 0 1 -1.8325953071795862
+    }
+    Sofa {
+      translation -194.073 -46.0979 1.65
+      rotation 0 0 1 1.309
+      name "sofa(1)"
+    }
+    Sofa {
+      translation -195.081 -44.1255 1.65
+      rotation 0 0 1 -0.261795307179586
+    }
+    Table {
+      translation -195.462 -45.6545 1.65
+      rotation 0 0 1 -1.8325953071795862
+      name "table(1)"
+      size 1 1 0.74
+    }
+    Table {
+      translation -193.741 -44.5269 1.65
+      rotation 0 0 1 -0.261795307179586
+      size 1 1 0.4
+    }
+    Cabinet {
+      hidden position_6_0 -6.406142921069112e-06
+      hidden translation_7 1.2748224412840356e-06 -4.08292843978586e-12 0
+      hidden rotation_7 0 0 -1 6.406113008859535e-06
+      hidden position_10_0 -5.446185392272895e-06
+      hidden translation_11 -9.212222590984056e-07 2.508854235472313e-12 0
+      hidden rotation_11 0 0 -1 5.446165469934237e-06
+      hidden translation_15 0 0 0
+      hidden translation_23 0 0 0
+      hidden translation_31 0 0 0
+      hidden translation_39 0 0 0
+      translation -193.59 -51.6615 1.65
+      rotation 0 0 1 2.87979
+    }
+    Worktop {
+      translation -196.742 -49.3735 2.38
+      rotation 0 0 1 -1.8325953071795862
+    }
+    Sink {
+      translation -197.017 -49.948 2.47
+      rotation 0 0 1 -0.261795307179586
+    }
+    Fridge {
+      hidden position_0_0 -4.3948758337387934e-05
+      hidden position_0_1 0.00013184636080706722
+      hidden translation_1 0.36 0.34 1.55
+      hidden rotation_1 0 0 -1 0.0001318463601151914
+      hidden translation_2 0.36 0.34 0.65
+      hidden rotation_2 0 0 1 0.0001318463601151914
+      translation -196.996 -50.7297 1.65
+      rotation 0 0 1 -0.261795307179586
+    }
+    Wall {
+      translation -192.046 -60.6257 1.65
+      rotation 0 0 1 -1.8325953071795862
+      name "wall(45)"
+      size 0.1 1.8 5
+      appearance BakelitePlastic {
+      }
+    }
+    Window {
+      translation -190.638 -61.0007 1.65
+      rotation 0 0 1 -1.8325953071795862
+      name "window(11)"
+      size 0.1 1.2 5
+      bottomWallHeight 1
+      windowHeight 1.5
+      wallAppearance BakelitePlastic {
+      }
+    }
+    Window {
+      translation -186.65 -46.4735 1.65
+      rotation 0 0 1 -1.8325953071795862
+      name "window(10)"
+      size 0.1 1.2 5
+      bottomWallHeight 1
+      windowHeight 1.5
+      wallAppearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -188.14 -46.0681 1.65
+      rotation 0 0 1 -1.8325953071795862
+      name "wall(44)"
+      size 0.1 1.9 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -188.332 -57.5027 1.65
+      rotation 0 0 -1 1.83261
+      name "wall(43)"
+      size 0.1 1.03 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -185.364 -58.3621 1.65
+      rotation 0 0 -1 -1.3089953071795861
+      name "wall(13)"
+      size 0.1 3.3 5
+      appearance BakelitePlastic {
+      }
+    }
+    Door {
+      hidden translation_5 0.0012131231726270897 4.436947162350657e-05 2.886579864025407e-15
+      hidden rotation_5 0 0 -1 0.0004486594015952703
+      translation -187.374 -57.7344 1.65
+      rotation 0 0 1 1.309
+      name "door(10)"
+      size 0.1 1 5
+      position -0.000448659401392348
+      wallAppearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -193.464 -56.147 1.65
+      rotation 0 0 -1 1.83261
+      name "wall(42)"
+      size 0.1 2.5 5
+      appearance BakelitePlastic {
+      }
+    }
+    Door {
+      hidden translation_5 0.0012131231726271174 4.436947162350657e-05 2.886579864025407e-15
+      hidden rotation_5 0 0 -1 0.0004486594015952703
+      translation -191.787 -56.5972 1.65
+      rotation 0 0 1 1.30899
+      name "door(15)"
+      size 0.1 1 5
+      position -0.00044865940139239254
+      wallAppearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -190.521 -56.9226 1.65
+      rotation 0 0 -1 1.83261
+      name "wall(41)"
+      size 0.1 1.61 5
+      appearance BakelitePlastic {
+      }
+    }
+    Door {
+      hidden translation_5 0.0012131231726271313 4.436947162350657e-05 2.886579864025407e-15
+      hidden rotation_5 0 0 -1 0.0004486594015952703
+      translation -189.275 -57.2455 1.65
+      rotation 0 0 1 1.309
+      name "door(9)"
+      size 0.1 1 5
+      position -0.00044865940139243455
+      wallAppearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -186.311 -49.9587 1.65
+      rotation 0 0 -1 1.83261
+      name "wall(40)"
+      size 0.1 1.03 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -191.447 -48.5847 1.65
+      rotation 0 0 -1 1.83261
+      name "wall(39)"
+      size 0.1 2.5 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -188.511 -49.3701 1.65
+      rotation 0 0 -1 1.83261
+      name "wall(38)"
+      size 0.1 1.61 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -193.306 -54.2023 1.65
+      rotation 0 0 -1 1.83261
+      name "wall(37)"
+      size 0.1 1.8 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -189.237 -55.2959 1.65
+      rotation 0 0 -1 1.83261
+      name "wall(36)"
+      size 0.1 1.8 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -188.209 -51.4706 1.65
+      rotation 0 0 -1 1.83261
+      name "wall(35)"
+      size 0.1 1.8 5
+      appearance BakelitePlastic {
+      }
+    }
+    Door {
+      hidden translation_5 0.018287932907240526 0.0032772606882200406 1.7763568394002505e-15
+      hidden rotation_5 0 0 -1 0.03626654852896268
+      translation -186.896 -51.8124 1.65
+      rotation 0 0 1 1.309
+      name "door(14)"
+      size 0.1 1 5
+      position -0.036266548528963403
+      wallAppearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -192.291 -50.397 1.65
+      rotation 0 0 -1 1.83261
+      name "wall(34)"
+      size 0.1 1.8 5
+      appearance BakelitePlastic {
+      }
+    }
+    Door {
+      hidden translation_5 0.0012131231726271868 4.436947162350657e-05 2.886579864025407e-15
+      hidden rotation_5 0 0 -1 0.0004486594015952703
+      translation -198.319 -53.975 1.65
+      rotation 0 0 1 2.87979
+      name "door(13)"
+      size 0.1 1 5
+      position -0.0004486594013925454
+      wallAppearance BakelitePlastic {
+      }
+    }
+    Door {
+      hidden translation_5 0.001213123172627048 4.4369471623062484e-05 2.886579864025407e-15
+      hidden rotation_5 0 0 -1 0.0004486594015952703
+      translation -196.783 -48.23 1.65
+      rotation 0 0 1 2.87979
+      name "door(12)"
+      size 0.1 1 5
+      position -0.00044865940139225907
+      wallAppearance BakelitePlastic {
+      }
+    }
+    Door {
+      hidden translation_5 0.014735242168689155 0.0026566979243217714 1.5543122344752192e-15
+      hidden rotation_5 0 0 -1 0.028833661873985793
+      translation -191.96 -54.5643 1.65
+      rotation 0 0 1 -1.8325953071795862
+      name "door(8)"
+      size 0.1 1 5
+      position -0.028833661873984284
+      wallAppearance BakelitePlastic {
+      }
+    }
+    Door {
+      hidden translation_5 0.5722654081230818 -0.3636834051439789 -5.10702591327572e-15
+      hidden rotation_5 0 0 -0.9999999999999999 1.5447932642017144
+      translation -187.942 -55.6426 1.65
+      rotation 0 0 1 -1.8325953071795862
+      name "door(7)"
+      size 0.1 1 5
+      position -1.5447932642017144
+      wallAppearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -190.865 -41.7763 1.65
+      rotation 0 0 1 -0.2618053071795865
+      name "wall(33)"
+      size 0.1 4 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -196.874 -64.1881 1.65
+      rotation 0 0 1 -0.2618053071795865
+      name "wall(32)"
+      size 0.1 6.7 5
+      appearance BakelitePlastic {
+      }
+    }
+    Window {
+      translation -195.881 -60.3986 1.65
+      rotation 0 0 1 2.87979
+      name "window(9)"
+      size 0.1 1.2 5
+      bottomWallHeight 1
+      windowHeight 1.5
+      wallAppearance BakelitePlastic {
+      }
+    }
+    Window {
+      translation -191.542 -44.2757 1.65
+      rotation 0 0 1 2.87979
+      name "window(3)"
+      size 0.1 1.2 5
+      bottomWallHeight 1
+      windowHeight 1.5
+      wallAppearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -193.205 -42.466 1.65
+      rotation 0 0 1 -1.8326053071795858
+      name "wall(31)"
+      size 0.1 4 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -198.274 -61.3726 1.65
+      rotation 0 0 1 -1.8326053071795858
+      name "wall(30)"
+      size 0.1 4 5
+      appearance BakelitePlastic {
+      }
+    }
+    Door {
+      hidden translation_5 0.001213123172627048 4.4369471623117995e-05 2.886579864025407e-15
+      hidden rotation_5 0 0 -1 0.0004486594015952703
+      translation -186.426 -57.5914 1.65
+      rotation 0 0 1 2.87979
+      name "door(6)"
+      size 0.1 1 5
+      position -0.0004486594013922656
+      wallAppearance BakelitePlastic {
+      }
+    }
+    Door {
+      hidden translation_5 0.0012131231726272146 4.436947162350657e-05 2.886579864025407e-15
+      hidden rotation_5 0 0 -1 0.0004486594015952703
+      translation -184.636 -50.9862 1.65
+      rotation 0 0 1 2.87979
+      name "door(5)"
+      size 0.1 1 5
+      position -0.00044865940139260374
+      wallAppearance BakelitePlastic {
+      }
+    }
+    Door {
+      hidden translation_5 0.001213123172627173 4.436947162350657e-05 2.886579864025407e-15
+      hidden rotation_5 0 0 -1 0.0004486594015952703
+      translation -189.758 -49.0337 1.65
+      rotation 0 0 -1 1.8326
+      name "door(4)"
+      size 0.1 1 5
+      position -0.0004486594013925131
+      wallAppearance BakelitePlastic {
+      }
+    }
+    Door {
+      hidden translation_5 0.0012131231726271452 4.436947162350657e-05 2.886579864025407e-15
+      hidden rotation_5 0 0 -1 0.0004486594015952703
+      translation -185.336 -50.2182 1.65
+      rotation 0 0 1 -1.8325953071795862
+      name "door(3)"
+      size 0.1 1 5
+      position -0.00044865940139246274
+      wallAppearance BakelitePlastic {
+      }
+    }
+    Door {
+      hidden translation_5 0.0014576882619369014 9.516183320390503e-05 4.440892098500626e-16
+      hidden rotation_5 0 0 -1 0.0009634576510804176
+      translation -187.253 -49.7018 1.65
+      rotation 0 0 1 -1.8325953071795862
+      name "door(2)"
+      size 0.1 1 5
+      position -0.000963457651230905
+      wallAppearance BakelitePlastic {
+      }
+    }
+    Door {
+      hidden translation_5 0.0012131231726270897 4.436947162350657e-05 2.886579864025407e-15
+      hidden rotation_5 0 0 -0.9999999999999999 0.0004486594015952703
+      translation -190.943 -50.7558 1.65
+      rotation 0 0 1 1.309
+      name "door(1)"
+      size 0.1 1 5
+      position -0.00044865940139234196
+      wallAppearance BakelitePlastic {
+      }
+      frameAppearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -190.929 -52.8016 1.65
+      rotation 0 0 1 -0.2618053071795865
+      name "wall(29)"
+      size 0.1 4.05 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -193.632 -52.0757 1.65
+      rotation 0 0 1 -0.2618053071795865
+      name "wall(28)"
+      size 0.1 4 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -189.545 -53.1307 1.65
+      rotation 0 0 1 -0.2618053071795865
+      name "wall(27)"
+      size 0.1 4 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -186.898 -53.8688 1.65
+      rotation 0 0 1 -0.2618053071795865
+      name "wall(26)"
+      size 0.1 4.05 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -199.291 -57.5941 1.65
+      rotation 0 0 1 2.87979
+      name "wall(25)"
+      size 0.1 6.6 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -195.872 -44.8575 1.65
+      rotation 0 0 1 2.87979
+      name "wall(24)"
+      size 0.1 6 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -197.558 -51.1259 1.65
+      rotation 0 0 1 2.87979
+      name "wall(23)"
+      size 0.1 5 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -192.287 -52.4947 1.65
+      rotation 0 0 1 -1.8325953071795862
+      name "wall(22)"
+      size 0.1 11 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -195.176 -57.8234 1.65
+      rotation 0 0 1 -0.2618053071795865
+      name "wall(21)"
+      size 0.1 4.15 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -191.826 -58.6569 1.65
+      rotation 0 0 1 -0.2618053071795865
+      name "wall(20)"
+      size 0.1 4 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -188.417 -59.5484 1.65
+      rotation 0 0 1 -0.2618053071795865
+      name "wall(19)"
+      size 0.1 4 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -192.151 -46.5317 1.65
+      rotation 9.58979e-09 7.284e-08 1 -0.2618053071795865
+      name "wall(18)"
+      size 0.1 3.5 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -188.801 -47.5734 1.65
+      rotation 0 0 1 -0.2618053071795865
+      name "wall(17)"
+      size 0.1 3.3 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -185.459 -48.4888 1.65
+      rotation 0 0 1 -0.2618053071795865
+      name "wall(16)"
+      size 0.1 3.3 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -185.92 -55.7353 1.65
+      rotation 0 0 1 -0.2618053071795865
+      name "wall(15)"
+      size 0.1 3 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -185.14 -52.8749 1.65
+      rotation 0 0 1 -0.2618053071795865
+      name "wall(14)"
+      size 0.1 3 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -183.275 -50.7729 1.65
+      rotation 0 0 -1 -1.3089953071795861
+      name "wall(12)"
+      size 0.1 3.3 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -188.105 -53.6151 1.65
+      rotation 0 0 1 -1.8325953071795862
+      name "wall(11)"
+      size 0.1 11 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -194.878 -59.8894 1.65
+      rotation 0 0 -1 -1.3089953071795861
+      name "wall(10)"
+      size 0.1 1.75 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -190.989 -45.3084 1.65
+      rotation 0 0 -1 -1.3089953071795861
+      name "wall(9)"
+      size 0.1 1.7 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -181.409 -47.8665 1.65
+      rotation 0 0 -1 -1.3089953071795861
+      name "wall(8)"
+      size 0.1 1.25 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -184.616 -47.0169 1.65
+      rotation 0 0 1 -1.8325953071795862
+      name "wall(7)"
+      size 0.1 3.075 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -188.588 -61.5522 1.65
+      rotation 0 0 1 -1.8325953071795862
+      name "wall(6)"
+      size 0.1 3.075 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -181.012 -48.6127 1.65
+      rotation 0 0 1 2.87979
+      name "wall(5)"
+      size 0.1 1.2 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -185.354 -62.4 1.65
+      rotation 0 0 -1 -1.3089953071795861
+      name "wall(4)"
+      size 0.1 1.25 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -181.842 -51.6567 1.65
+      rotation 0 0 1 2.87979
+      name "wall(3)"
+      size 0.1 3 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -184.64 -62.1271 1.65
+      rotation 0 0 1 2.87979
+      name "wall(2)"
+      size 0.1 1 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -183.718 -58.6725 1.65
+      rotation 0 0 1 2.87979
+      name "wall(1)"
+      size 0.1 3.86 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -182.745 -54.9735 1.65
+      rotation 0 0 1 2.87979
+      size 0.1 1.6 5
+      appearance BakelitePlastic {
+      }
+    }
+    Window {
+      translation -182.394 -53.668 1.65
+      rotation 0 0 1 -0.261795307179586
+      size 0.1 1.2 5
+      bottomWallHeight 1
+      windowHeight 1.5
+      wallAppearance BakelitePlastic {
+      }
+    }
+    Window {
+      translation -183.081 -56.3079 1.65
+      rotation 0 0 1 -0.261795307179586
+      name "window(1)"
+      size 0.1 1.2 5
+      bottomWallHeight 1
+      windowHeight 1.5
+      wallAppearance BakelitePlastic {
+      }
+    }
+    Window {
+      translation -181.298 -49.6898 1.65
+      rotation 0 0 1 -0.261795307179586
+      name "window(2)"
+      size 0.1 1.2 5
+      bottomWallHeight 1
+      windowHeight 1.5
+      wallAppearance BakelitePlastic {
+      }
+    }
+    Window {
+      translation -186.525 -62.1021 1.65
+      rotation 0 0 1 -1.8325953071795862
+      name "window(4)"
+      size 0.1 1.2 5
+      bottomWallHeight 1
+      windowHeight 1.5
+      wallAppearance BakelitePlastic {
+      }
+    }
+    Window {
+      translation -193.498 -60.2526 1.65
+      rotation 0 0 1 -1.8325953071795862
+      name "window(6)"
+      size 0.1 1.2 5
+      bottomWallHeight 1
+      windowHeight 1.5
+      wallAppearance BakelitePlastic {
+      }
+    }
+    Window {
+      translation -189.601 -45.6776 1.65
+      rotation 0 0 1 -1.8325953071795862
+      name "window(8)"
+      size 0.1 1.2 5
+      bottomWallHeight 1
+      windowHeight 1.5
+      wallAppearance BakelitePlastic {
+      }
+    }
+    Window {
+      translation -182.55 -47.5662 1.65
+      rotation 0 0 1 -1.8325953071795862
+      name "window(7)"
+      size 0.1 1.2 5
+      bottomWallHeight 1
+      windowHeight 1.5
+      wallAppearance BakelitePlastic {
+      }
+    }
+    Window {
+      translation -184.377 -61.1051 1.65
+      rotation 0 0 1 -0.261795307179586
+      name "window(5)"
+      size 0.1 1.2 5
+      bottomWallHeight 1
+      windowHeight 1.5
+      wallAppearance BakelitePlastic {
+      }
+    }
+  ]
+  name "suite_6"
+}
+Solid {
+  translation -180.7 219.9 -0.2
+  rotation 0 0 1 1.04719
+  children [
+    Wall {
+      translation -199.633 -40.7445 1.65
+      rotation 0 0 1 -1.8326053071795858
+      name "wall(47)"
+      size 0.1 4 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -194.94 -42.0016 1.65
+      rotation 0 0 1 -1.8326053071795858
+      name "wall(46)"
+      size 0.1 4 5
+      appearance BakelitePlastic {
+      }
+    }
+    Cabinet {
+      hidden position_6_0 -0.40834097653745255
+      hidden translation_7 0.07902036377714107 -0.01636160833896877 0
+      hidden rotation_7 0 0 -1 0.4083409765374522
+      hidden position_10_0 0.13053602393964783
+      hidden translation_11 0.02201751544905554 0.0014390834994617574 0
+      hidden rotation_11 0 0 1 0.13053602393964717
+      hidden translation_15 0.1852961240992972 0 0
+      hidden translation_23 0.19410334352105318 0 0
+      hidden translation_31 0.1852470204206047 0 0
+      hidden translation_39 0.14578802515975964 0 0
+      translation -191.22 -45.3595 1.65
+      rotation 0 0 1 -1.8326053071795858
+      name "cabinet(12)"
+      depth 0.3
+    }
+    Cabinet {
+      hidden position_6_0 -0.41325455380838505
+      hidden translation_7 0.07991681411420748 -0.016752084176977905 0
+      hidden rotation_7 0 0 -1 0.41325455380838483
+      hidden position_10_0 0.13758415634222274
+      hidden translation_11 0.023199007536663412 0.0015984301794999545 0
+      hidden rotation_11 0 0 1 0.13758415634222423
+      hidden translation_15 0.14524274841168128 0 0
+      hidden translation_23 0.15928037536092293 0 0
+      hidden translation_31 0.1451629368071531 0 0
+      hidden translation_39 0.16183663600759288 0 0
+      translation -194.105 -56.1298 1.65
+      rotation 0 0 1 -1.8326053071795858
+      name "cabinet(11)"
+      depth 0.3
+    }
+    Cabinet {
+      hidden position_6_0 6.406130381550064e-06
+      hidden translation_7 0.0776390196453062 -0.015770137181419036 0
+      hidden rotation_7 0 0 -1 0.40078996574880454
+      hidden position_10_0 -5.446174730450211e-06
+      hidden translation_11 0.017948524288328077 0.0009549555549532851 0
+      hidden rotation_11 0 0 1 0.10631024274982122
+      hidden translation_15 0.17168807214452983 0 0
+      hidden translation_23 0.1462753002603385 0 0
+      hidden translation_31 0.17168870051812643 0 0
+      hidden translation_39 0.2258236123255871 0 0
+      translation -184.706 -62.0597 1.65
+      rotation 0 0 1 2.87978
+      name "cabinet(10)"
+      depth 0.3
+    }
+    Cabinet {
+      hidden position_6_0 -0.40731456599194105
+      hidden translation_7 0.07883286021413269 -0.0162805972249824 0
+      hidden rotation_7 0 0 -1 0.4073145659919411
+      hidden position_10_0 0.11359759677378523
+      hidden translation_11 0.019173733692931415 0.0010902176715898437 0
+      hidden rotation_11 0 0 1 0.11359759677378714
+      hidden translation_15 0.18645501109377227 0 0
+      hidden translation_23 0.1780341373033768 0 0
+      hidden translation_31 0.18646352506695552 0 0
+      hidden translation_39 0.2164334395271711 0 0
+      translation -185.534 -58.2125 1.65
+      rotation 0 0 1 1.30898
+      name "cabinet(9)"
+      depth 0.3
+    }
+    Cabinet {
+      hidden position_6_0 -0.4091581110613656
+      hidden translation_7 0.07916957751445579 -0.016426239573746337 0
+      hidden rotation_7 0 0 -1 0.409158111061366
+      hidden position_10_0 0.11732976567107427
+      hidden translation_11 0.01980082619318102 0.0011629475761085195 0
+      hidden rotation_11 0 0 1 0.11732976567107375
+      hidden translation_15 0.06257082730479746 0 0
+      hidden translation_23 0.1421642177191088 0 0
+      hidden translation_31 0.0625641664592469 0 0
+      hidden translation_39 0.1007597980088838 0 0
+      translation -183.53 -50.7363 1.65
+      rotation 0 0 1 -1.8326153071795863
+      name "cabinet(8)"
+      depth 0.3
+    }
+    Cabinet {
+      hidden position_6_0 -0.4050434504062836
+      hidden translation_7 0.07841768037890862 -0.01610203007143199 0
+      hidden rotation_7 0 0 -1 0.40504345040628376
+      hidden position_10_0 0.14156226605606195
+      hidden translation_11 0.02386536074005682 0.001692043913264829 0
+      hidden rotation_11 0 0 1 0.14156226605606193
+      hidden translation_15 0.18951108506621497 0 0
+      hidden translation_23 0.19051955001894644 0 0
+      hidden translation_31 0.18683952914845361 0 0
+      hidden translation_39 0.019363984805851043 0 0
+      translation -188.876 -61.0212 1.65
+      rotation 0 0 1 2.87978
+      name "cabinet(7)"
+      depth 0.3
+    }
+    Cabinet {
+      hidden position_6_0 6.406130381514961e-06
+      hidden translation_7 0.07997057532891293 -0.01677566825046989 0
+      hidden rotation_7 0 0 -1 0.41354956235662854
+      hidden position_10_0 0.12874859409095135
+      hidden translation_11 0.021717708938643013 0.0013999966662997798 0
+      hidden rotation_11 0 0 1 0.12874859409094966
+      hidden translation_15 0.1888908507624268 0 0
+      hidden translation_23 0.189614966397399 0 0
+      hidden translation_31 0.1863514290650529 0 0
+      hidden translation_39 0.014278925884779447 0 0
+      translation -185.531 -48.5318 1.65
+      rotation 0 0 1 2.87978
+      name "cabinet(6)"
+      depth 0.3
+    }
+    FloorLight {
+      translation -193.642 -59.8661 1.65
+      rotation 0 0 1 -0.261795307179586
+      name "floor light(8)"
+    }
+    FloorLight {
+      translation -190.349 -60.7485 1.65
+      rotation 0 0 1 -0.261795307179586
+      name "floor light(7)"
+    }
+    FloorLight {
+      translation -186.814 -61.6957 1.65
+      rotation 0 0 1 -0.261795307179586
+      name "floor light(6)"
+    }
+    FloorLight {
+      translation -184.796 -54.9247 1.65
+      rotation 0 0 1 -0.261795307179586
+      name "floor light(5)"
+    }
+    FloorLight {
+      translation -182.658 -52.9403 1.65
+      rotation 0 0 1 -0.261795307179586
+      name "floor light(4)"
+    }
+    FloorLight {
+      translation -184.411 -50.0984 1.65
+      rotation 0 0 1 -0.261795307179586
+      name "floor light(3)"
+    }
+    FloorLight {
+      translation -186.155 -49.6289 1.65
+      rotation 0 0 1 -0.261795307179586
+      name "floor light(2)"
+    }
+    FloorLight {
+      translation -190.584 -48.4448 1.65
+      rotation 0 0 1 -0.261795307179586
+      name "floor light(1)"
+    }
+    Desk {
+      translation -192.92 -59.7839 1.65
+      rotation 0 0 1 -1.8326053071795858
+      name "desk(7)"
+    }
+    Desk {
+      translation -190.746 -57.2633 1.65
+      rotation 0 0 -1 -1.3089953071795861
+      name "desk(6)"
+    }
+    Desk {
+      translation -184.549 -59.1516 1.65
+      rotation 0 0 -1 -1.3089953071795861
+      name "desk(5)"
+    }
+    Desk {
+      translation -184.289 -58.1762 1.65
+      rotation 0 0 -1 -1.3089953071795861
+      name "desk(4)"
+    }
+    Desk {
+      translation -182.489 -51.4343 1.65
+      rotation 0 0 -1 -1.3089953071795861
+      name "desk(3)"
+    }
+    Desk {
+      translation -182.036 -50.3365 1.65
+      rotation 0 0 1 2.87979
+      name "desk(2)"
+    }
+    Desk {
+      translation -185.618 -47.4396 1.65
+      rotation 0 0 1 2.87979
+      name "desk(1)"
+    }
+    Desk {
+      translation -188.971 -46.5427 1.65
+      rotation 0 0 1 2.87979
+    }
+    Bed {
+      translation -183.893 -55.9487 1.65
+      rotation 0 0 1 -1.8325953071795862
+      name "bed(7)"
+    }
+    Bed {
+      translation -187.651 -60.5885 1.65
+      rotation 0 0 1 1.309
+      name "bed(6)"
+    }
+    Bed {
+      translation -191.041 -59.6801 1.65
+      rotation 0 0 1 1.309
+      name "bed(5)"
+    }
+    Bed {
+      translation -194.375 -58.787 1.65
+      rotation 0 0 1 1.309
+      name "bed(4)"
+    }
+    Bed {
+      translation -183.688 -53.7939 1.65
+      rotation 0 0 1 2.8798
+      name "bed(3)"
+    }
+    Bed {
+      translation -182.352 -48.6903 1.65
+      rotation 0 0 1 2.8798
+      name "bed(2)"
+    }
+    Bed {
+      translation -187.681 -47.276 1.65
+      rotation 0 0 1 -1.8325953071795862
+      name "bed(1)"
+    }
+    Bed {
+      translation -191.309 -47.3409 1.65
+      rotation 0 0 1 1.309
+    }
+    Cabinet {
+      hidden position_6_0 -0.013041869076969238
+      hidden translation_7 0.0025952583734564828 -1.6923749845243474e-05 0
+      hidden rotation_7 0 0 -1 0.013041869076968823
+      hidden position_10_0 -5.446174730592454e-06
+      hidden translation_11 0.13448821656310805 0.0665603216416261 0
+      hidden rotation_11 0 0 1 0.9191437073977504
+      hidden translation_15 -0.0029214008651314953 0 0
+      hidden translation_23 -0.0024119126082871797 0 0
+      hidden translation_31 -0.0044356671985234936 0 0
+      hidden translation_39 0.17876398615843608 0 0
+      translation -190.679 -51.6528 1.65
+      rotation 0 0 1 2.87978
+      name "cabinet(5)"
+      depth 0.3
+    }
+    Cabinet {
+      hidden position_6_0 -0.027100195961262497
+      hidden translation_7 0.005392278906262968 -7.307037960707641e-05 0
+      hidden rotation_7 0 0 -1 0.027100195961265165
+      hidden position_10_0 5.446174730817724e-06
+      hidden translation_11 0.021445323279432136 0.0013649571343120337 0
+      hidden rotation_11 0 0 1 0.12712500452877618
+      hidden translation_15 -0.0013949771998380545 0 0
+      hidden translation_23 -5.8723311069708295e-05 0 0
+      hidden translation_31 -0.0041063531994944835 0 0
+      hidden translation_39 0.018507985163997265 0 0
+      translation -191.388 -54.1185 1.65
+      rotation 0 0 1 2.87978
+      name "cabinet(4)"
+      depth 0.3
+    }
+    Cabinet {
+      hidden position_6_0 -0.4137284634884722
+      hidden translation_7 0.0800031741881848 -0.016789977992935357 0
+      hidden rotation_7 0 0 -1 0.4137284634884721
+      hidden position_10_0 0.12821101287387587
+      hidden translation_11 0.021627526553890896 0.0013883458737949106 0
+      hidden rotation_11 0 0 1 0.12821101287387643
+      hidden translation_15 0.19090809264685143 0 0
+      hidden translation_23 0.1919210098614782 0 0
+      hidden translation_31 0.18400854165356706 0 0
+      hidden translation_39 0.020913599634569142 0 0
+      translation -186.653 -52.724 1.65
+      rotation 0 0 1 2.87978
+      name "cabinet(3)"
+      depth 0.3
+    }
+    Toilet {
+      translation -191.326 -52.3354 1.65
+      rotation 0 0 1 2.8798
+      name "toilet(3)"
+    }
+    Toilet {
+      translation -191.568 -53.2244 1.65
+      rotation 0 0 1 2.8798
+      name "toilet(2)"
+    }
+    Toilet {
+      translation -187.302 -53.4444 1.65
+      rotation 0 0 1 2.8798
+      name "toilet(1)"
+    }
+    Bathtube {
+      translation -192.856 -51.257 1.67
+      rotation 0 0 1 -0.2618053071795865
+      name "bathtube(3)"
+    }
+    Bathtube {
+      translation -193.442 -53.2403 1.67
+      rotation 0 0 1 -0.2618053071795865
+      name "bathtube(2)"
+    }
+    Bathtube {
+      translation -188.782 -52.3601 1.67
+      rotation 0 0 1 -0.2618053071795865
+      name "bathtube(1)"
+    }
+    Bathtube {
+      translation -189.315 -54.3498 1.67
+      rotation 0 0 1 -0.2618053071795865
+    }
+    Toilet {
+      translation -187.535 -54.3043 1.65
+      rotation 0 0 1 2.8798
+    }
+    Cabinet {
+      hidden position_6_0 0.007637181910363323
+      hidden translation_7 -0.0015197844260986747 -5.803463271308873e-06 0
+      hidden rotation_7 0 0 1 0.007637181910368157
+      hidden position_10_0 0.1107538466981924
+      hidden translation_11 0.01869573679026012 0.0010363719805284721 0
+      hidden rotation_11 0 0 1 0.11075384669819259
+      hidden translation_15 0.19225592722560478 0 0
+      hidden translation_23 0.18981274466212095 0 0
+      hidden translation_31 0.18861056703288606 0 0
+      hidden translation_39 0.023757127289988095 0 0
+      translation -187.318 -55.2064 1.65
+      rotation 0 0 1 2.87978
+      name "cabinet(2)"
+      depth 0.3
+    }
+    PottedTree {
+      translation -196.384 -60.9839 1.65
+      rotation 0 0 1 -0.261795307179586
+      name "potted tree(1)"
+    }
+    Television {
+      translation -197.989 -60.8245 3.37
+      rotation 0 0 1 1.309
+      name "television(1)"
+    }
+    Table {
+      translation -197.646 -59.0839 1.65
+      rotation 0 0 1 -0.261795307179586
+      name "table(3)"
+      size 1 1 0.4
+    }
+    Table {
+      translation -198.5 -56.9378 1.65
+      rotation 0 0 1 -1.8325953071795862
+      name "table(2)"
+      size 1 1 0.74
+    }
+    Sofa {
+      translation -198.97 -58.6622 1.65
+      rotation 0 0 1 -0.261795307179586
+      name "sofa(3)"
+    }
+    Sofa {
+      translation -197.083 -57.3406 1.65
+      rotation 0 0 1 -1.8325953071795862
+      name "sofa(2)"
+    }
+    Worktop {
+      translation -194.259 -53.5615 2.38
+      rotation 0 0 1 -1.8325953071795862
+      name "worktop(7)"
+    }
+    Worktop {
+      translation -194.21 -53.3404 2.38
+      rotation 0 0 1 -1.8325953071795862
+      name "worktop(6)"
+    }
+    Cabinet {
+      hidden position_6_0 -6.4061429209937655e-06
+      hidden translation_7 1.2748224412690416e-06 -4.08292843978586e-12 0
+      hidden rotation_7 0 0 -1 6.406113008859535e-06
+      hidden position_10_0 -5.446185392274723e-06
+      hidden translation_11 -9.212222590987148e-07 2.508854235472313e-12 0
+      hidden rotation_11 0 0 -1 5.446165469934237e-06
+      hidden translation_15 0 0 0
+      hidden translation_23 0 0 0
+      hidden translation_31 0 0 0
+      hidden translation_39 0 0 0
+      translation -193.861 -52.685 1.65
+      rotation 0 0 1 2.87979
+      name "cabinet(1)"
+    }
+    Worktop {
+      translation -197.75 -53.1312 2.38
+      rotation 0 0 1 -1.8325953071795862
+      name "worktop(5)"
+    }
+    Worktop {
+      translation -197.563 -52.4641 2.38
+      rotation 0 0 1 -1.8325953071795862
+      name "worktop(4)"
+    }
+    Sink {
+      translation -197.682 -52.4399 2.47
+      rotation 0 0 1 -0.261795307179586
+      name "sink(1)"
+    }
+    Fridge {
+      hidden position_0_0 -4.3948758337923354e-05
+      hidden position_0_1 0.00013184636080707172
+      hidden translation_1 0.36 0.34 1.55
+      hidden rotation_1 0 0 -1 0.0001318463601151914
+      hidden translation_2 0.36 0.34 0.65
+      hidden rotation_2 0 0 1 0.0001318463601151914
+      translation -197.272 -51.7726 1.65
+      rotation 0 0 1 -0.261795307179586
+      name "fridge(1)"
+    }
+    Worktop {
+      translation -193.421 -50.3944 2.38
+      rotation 0 0 1 -1.8325953071795862
+      name "worktop(3)"
+    }
+    Worktop {
+      translation -193.568 -50.9262 2.38
+      rotation 0 0 1 -1.8325953071795862
+      name "worktop(2)"
+    }
+    Worktop {
+      translation -196.914 -50.03 2.38
+      rotation 0 0 1 -1.8325953071795862
+      name "worktop(1)"
+    }
+    FloorLight {
+      translation -194.98 -42.82 1.65
+    }
+    PottedTree {
+      translation -191.647 -43.2699 1.65
+      rotation 0 0 1 -0.261795307179586
+    }
+    Television {
+      translation -193.091 -42.5588 3.37
+      rotation 0 0 1 -1.8325953071795862
+    }
+    Sofa {
+      translation -194.073 -46.0979 1.65
+      rotation 0 0 1 1.309
+      name "sofa(1)"
+    }
+    Sofa {
+      translation -195.081 -44.1255 1.65
+      rotation 0 0 1 -0.261795307179586
+    }
+    Table {
+      translation -195.462 -45.6545 1.65
+      rotation 0 0 1 -1.8325953071795862
+      name "table(1)"
+      size 1 1 0.74
+    }
+    Table {
+      translation -193.741 -44.5269 1.65
+      rotation 0 0 1 -0.261795307179586
+      size 1 1 0.4
+    }
+    Cabinet {
+      hidden position_6_0 -6.40614292105728e-06
+      hidden translation_7 1.274822441281681e-06 -4.08292843978586e-12 0
+      hidden rotation_7 0 0 -1 6.406113008859535e-06
+      hidden position_10_0 -5.4461853922561106e-06
+      hidden translation_11 -9.212222590955664e-07 2.508854235472313e-12 0
+      hidden rotation_11 0 0 -1 5.446165469934237e-06
+      hidden translation_15 0 0 0
+      hidden translation_23 0 0 0
+      hidden translation_31 0 0 0
+      hidden translation_39 0 0 0
+      translation -193.59 -51.6615 1.65
+      rotation 0 0 1 2.87979
+    }
+    Worktop {
+      translation -196.742 -49.3735 2.38
+      rotation 0 0 1 -1.8325953071795862
+    }
+    Sink {
+      translation -197.017 -49.948 2.47
+      rotation 0 0 1 -0.261795307179586
+    }
+    Fridge {
+      hidden position_0_0 -4.3948758337923354e-05
+      hidden position_0_1 0.00013184636080707172
+      hidden translation_1 0.36 0.34 1.55
+      hidden rotation_1 0 0 -1 0.0001318463601151914
+      hidden translation_2 0.36 0.34 0.65
+      hidden rotation_2 0 0 1 0.0001318463601151914
+      translation -196.996 -50.7297 1.65
+      rotation 0 0 1 -0.261795307179586
+    }
+    Wall {
+      translation -192.046 -60.6257 1.65
+      rotation 0 0 1 -1.8325953071795862
+      name "wall(45)"
+      size 0.1 1.8 5
+      appearance BakelitePlastic {
+      }
+    }
+    Window {
+      translation -190.638 -61.0007 1.65
+      rotation 0 0 1 -1.8325953071795862
+      name "window(11)"
+      size 0.1 1.2 5
+      bottomWallHeight 1
+      windowHeight 1.5
+      wallAppearance BakelitePlastic {
+      }
+    }
+    Window {
+      translation -186.65 -46.4735 1.65
+      rotation 0 0 1 -1.8325953071795862
+      name "window(10)"
+      size 0.1 1.2 5
+      bottomWallHeight 1
+      windowHeight 1.5
+      wallAppearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -188.14 -46.0681 1.65
+      rotation 0 0 1 -1.8325953071795862
+      name "wall(44)"
+      size 0.1 1.9 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -188.332 -57.5027 1.65
+      rotation 0 0 -1 1.83261
+      name "wall(43)"
+      size 0.1 1.03 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -185.364 -58.3621 1.65
+      rotation 0 0 -1 -1.3089953071795861
+      name "wall(13)"
+      size 0.1 3.3 5
+      appearance BakelitePlastic {
+      }
+    }
+    Door {
+      hidden translation_5 0.0012131231726272007 4.436947162350657e-05 2.886579864025407e-15
+      hidden rotation_5 0 0 -1 0.0004486594015952703
+      translation -187.374 -57.7344 1.65
+      rotation 0 0 1 1.309
+      name "door(10)"
+      size 0.1 1 5
+      position -0.00044865940139257956
+      wallAppearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -193.464 -56.147 1.65
+      rotation 0 0 -1 1.83261
+      name "wall(42)"
+      size 0.1 2.5 5
+      appearance BakelitePlastic {
+      }
+    }
+    Door {
+      hidden translation_5 0.0012131231726270203 4.436947162345106e-05 2.886579864025407e-15
+      hidden rotation_5 0 0 -1 0.0004486594015952703
+      translation -191.787 -56.5972 1.65
+      rotation 0 0 1 1.30899
+      name "door(15)"
+      size 0.1 1 5
+      position -0.0004486594013921928
+      wallAppearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -190.521 -56.9226 1.65
+      rotation 0 0 -1 1.83261
+      name "wall(41)"
+      size 0.1 1.61 5
+      appearance BakelitePlastic {
+      }
+    }
+    Door {
+      hidden translation_5 0.0012131231726271868 4.436947162350657e-05 2.886579864025407e-15
+      hidden rotation_5 0 0 -0.9999999999999999 0.0004486594015952703
+      translation -189.275 -57.2455 1.65
+      rotation 0 0 1 1.309
+      name "door(9)"
+      size 0.1 1 5
+      position -0.00044865940139256395
+      wallAppearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -186.311 -49.9587 1.65
+      rotation 0 0 -1 1.83261
+      name "wall(40)"
+      size 0.1 1.03 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -191.447 -48.5847 1.65
+      rotation 0 0 -1 1.83261
+      name "wall(39)"
+      size 0.1 2.5 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -188.511 -49.3701 1.65
+      rotation 0 0 -1 1.83261
+      name "wall(38)"
+      size 0.1 1.61 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -193.306 -54.2023 1.65
+      rotation 0 0 -1 1.83261
+      name "wall(37)"
+      size 0.1 1.8 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -189.237 -55.2959 1.65
+      rotation 0 0 -1 1.83261
+      name "wall(36)"
+      size 0.1 1.8 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -188.209 -51.4706 1.65
+      rotation 0 0 -1 1.83261
+      name "wall(35)"
+      size 0.1 1.8 5
+      appearance BakelitePlastic {
+      }
+    }
+    Door {
+      hidden translation_5 0.0182879329072404 0.003277260688219985 1.7763568394002505e-15
+      hidden rotation_5 0 0 -1 0.03626654852896268
+      translation -186.896 -51.8124 1.65
+      rotation 0 0 1 1.309
+      name "door(14)"
+      size 0.1 1 5
+      position -0.03626654852896316
+      wallAppearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -192.291 -50.397 1.65
+      rotation 0 0 -1 1.83261
+      name "wall(34)"
+      size 0.1 1.8 5
+      appearance BakelitePlastic {
+      }
+    }
+    Door {
+      hidden translation_5 0.0012131231726271452 4.436947162350657e-05 2.886579864025407e-15
+      hidden rotation_5 0 0 -0.9999999999999999 0.0004486594015952703
+      translation -198.319 -53.975 1.65
+      rotation 0 0 1 2.87979
+      name "door(13)"
+      size 0.1 1 5
+      position -0.0004486594013924552
+      wallAppearance BakelitePlastic {
+      }
+    }
+    Door {
+      hidden translation_5 0.0012131231726270064 4.4369471623062484e-05 2.886579864025407e-15
+      hidden rotation_5 0 0 -0.9999999999999999 0.0004486594015952703
+      translation -196.783 -48.23 1.65
+      rotation 0 0 1 2.87979
+      name "door(12)"
+      size 0.1 1 5
+      position -0.00044865940139216887
+      wallAppearance BakelitePlastic {
+      }
+    }
+    Door {
+      hidden translation_5 0.014735242168689128 0.0026566979243217714 1.5543122344752192e-15
+      hidden rotation_5 0 0 -1 0.028833661873985793
+      translation -191.96 -54.5643 1.65
+      rotation 0 0 1 -1.8325953071795862
+      name "door(8)"
+      size 0.1 1 5
+      position -0.028833661873984243
+      wallAppearance BakelitePlastic {
+      }
+    }
+    Door {
+      hidden translation_5 0.5722654081230818 -0.363683405143979 -5.329070518200751e-15
+      hidden rotation_5 0 0 -0.9999999999999999 1.5447932642017146
+      translation -187.942 -55.6426 1.65
+      rotation 0 0 1 -1.8325953071795862
+      name "door(7)"
+      size 0.1 1 5
+      position -1.5447932642017146
+      wallAppearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -190.542 -40.5688 1.65
+      rotation 0 0 1 -0.2618053071795865
+      name "wall(33)"
+      size 0.1 6.4 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -196.499 -62.7875 1.65
+      rotation 0 0 1 -0.2618053071795865
+      name "wall(32)"
+      size 0.1 4 5
+      appearance BakelitePlastic {
+      }
+    }
+    Window {
+      translation -195.881 -60.3986 1.65
+      rotation 0 0 1 2.87979
+      name "window(9)"
+      size 0.1 1.2 5
+      bottomWallHeight 1
+      windowHeight 1.5
+      wallAppearance BakelitePlastic {
+      }
+    }
+    Window {
+      translation -191.542 -44.2757 1.65
+      rotation 0 0 1 2.87979
+      name "window(3)"
+      size 0.1 1.2 5
+      bottomWallHeight 1
+      windowHeight 1.5
+      wallAppearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -193.205 -42.466 1.65
+      rotation 0 0 1 -1.8326053071795858
+      name "wall(31)"
+      size 0.1 4 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -198.141 -60.8893 1.65
+      rotation 0 0 1 -1.8326053071795858
+      name "wall(30)"
+      size 0.1 4 5
+      appearance BakelitePlastic {
+      }
+    }
+    Door {
+      hidden translation_5 0.0012131231726270064 4.4369471623117995e-05 2.886579864025407e-15
+      hidden rotation_5 0 0 -0.9999999999999999 0.0004486594015952703
+      translation -186.426 -57.5914 1.65
+      rotation 0 0 1 2.87979
+      name "door(6)"
+      size 0.1 1 5
+      position -0.00044865940139217537
+      wallAppearance BakelitePlastic {
+      }
+    }
+    Door {
+      hidden translation_5 0.0012131231726272146 4.436947162350657e-05 2.886579864025407e-15
+      hidden rotation_5 0 0 -1 0.0004486594015952703
+      translation -184.636 -50.9862 1.65
+      rotation 0 0 1 2.87979
+      name "door(5)"
+      size 0.1 1 5
+      position -0.00044865940139260374
+      wallAppearance BakelitePlastic {
+      }
+    }
+    Door {
+      hidden translation_5 0.0012131231726272146 4.436947162350657e-05 2.886579864025407e-15
+      hidden rotation_5 0 0 -1 0.0004486594015952703
+      translation -189.758 -49.0337 1.65
+      rotation 0 0 -1 1.8326
+      name "door(4)"
+      size 0.1 1 5
+      position -0.00044865940139260374
+      wallAppearance BakelitePlastic {
+      }
+    }
+    Door {
+      hidden translation_5 0.0012131231726270897 4.436947162350657e-05 2.886579864025407e-15
+      hidden rotation_5 0 0 -1 0.0004486594015952703
+      translation -185.336 -50.2182 1.65
+      rotation 0 0 1 -1.8325953071795862
+      name "door(3)"
+      size 0.1 1 5
+      position -0.0004486594013923541
+      wallAppearance BakelitePlastic {
+      }
+    }
+    Door {
+      hidden translation_5 0.0014576882619368597 9.516183320390503e-05 4.440892098500626e-16
+      hidden rotation_5 0 0 -1 0.0009634576510804176
+      translation -187.253 -49.7018 1.65
+      rotation 0 0 1 -1.8325953071795862
+      name "door(2)"
+      size 0.1 1 5
+      position -0.0009634576512308004
+      wallAppearance BakelitePlastic {
+      }
+    }
+    Door {
+      hidden translation_5 0.0012131231726272007 4.436947162350657e-05 2.886579864025407e-15
+      hidden rotation_5 0 0 -1 0.0004486594015952703
+      translation -190.943 -50.7558 1.65
+      rotation 0 0 1 1.309
+      name "door(1)"
+      size 0.1 1 5
+      position -0.0004486594013925713
+      wallAppearance BakelitePlastic {
+      }
+      frameAppearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -190.929 -52.8016 1.65
+      rotation 0 0 1 -0.2618053071795865
+      name "wall(29)"
+      size 0.1 4.05 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -193.632 -52.0757 1.65
+      rotation 0 0 1 -0.2618053071795865
+      name "wall(28)"
+      size 0.1 4 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -189.545 -53.1307 1.65
+      rotation 0 0 1 -0.2618053071795865
+      name "wall(27)"
+      size 0.1 4 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -186.898 -53.8688 1.65
+      rotation 0 0 1 -0.2618053071795865
+      name "wall(26)"
+      size 0.1 4.05 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -199.233 -57.3815 1.65
+      rotation 0 0 1 2.87979
+      name "wall(25)"
+      size 0.1 6.14 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -195.872 -44.8575 1.65
+      rotation 0 0 1 2.87979
+      name "wall(24)"
+      size 0.1 6 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -197.558 -51.1259 1.65
+      rotation 0 0 1 2.87979
+      name "wall(23)"
+      size 0.1 5 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -192.287 -52.4947 1.65
+      rotation 0 0 1 -1.8325953071795862
+      name "wall(22)"
+      size 0.1 11 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -195.176 -57.8234 1.65
+      rotation 0 0 1 -0.2618053071795865
+      name "wall(21)"
+      size 0.1 4.15 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -191.826 -58.6569 1.65
+      rotation 0 0 1 -0.2618053071795865
+      name "wall(20)"
+      size 0.1 4 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -188.417 -59.5484 1.65
+      rotation 0 0 1 -0.2618053071795865
+      name "wall(19)"
+      size 0.1 4 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -192.151 -46.5317 1.65
+      rotation 9.58979e-09 7.284e-08 1 -0.2618053071795865
+      name "wall(18)"
+      size 0.1 3.5 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -188.801 -47.5734 1.65
+      rotation 0 0 1 -0.2618053071795865
+      name "wall(17)"
+      size 0.1 3.3 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -185.459 -48.4888 1.65
+      rotation 0 0 1 -0.2618053071795865
+      name "wall(16)"
+      size 0.1 3.3 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -185.92 -55.7353 1.65
+      rotation 0 0 1 -0.2618053071795865
+      name "wall(15)"
+      size 0.1 3 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -185.14 -52.8749 1.65
+      rotation 0 0 1 -0.2618053071795865
+      name "wall(14)"
+      size 0.1 3 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -183.275 -50.7729 1.65
+      rotation 0 0 -1 -1.3089953071795861
+      name "wall(12)"
+      size 0.1 3.3 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -188.105 -53.6151 1.65
+      rotation 0 0 1 -1.8325953071795862
+      name "wall(11)"
+      size 0.1 11 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -194.878 -59.8894 1.65
+      rotation 0 0 -1 -1.3089953071795861
+      name "wall(10)"
+      size 0.1 1.75 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -190.989 -45.3084 1.65
+      rotation 0 0 -1 -1.3089953071795861
+      name "wall(9)"
+      size 0.1 1.7 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -181.409 -47.8665 1.65
+      rotation 0 0 -1 -1.3089953071795861
+      name "wall(8)"
+      size 0.1 1.25 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -184.616 -47.0169 1.65
+      rotation 0 0 1 -1.8325953071795862
+      name "wall(7)"
+      size 0.1 3.075 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -188.588 -61.5522 1.65
+      rotation 0 0 1 -1.8325953071795862
+      name "wall(6)"
+      size 0.1 3.075 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -181.012 -48.6127 1.65
+      rotation 0 0 1 2.87979
+      name "wall(5)"
+      size 0.1 1.2 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -185.354 -62.4 1.65
+      rotation 0 0 -1 -1.3089953071795861
+      name "wall(4)"
+      size 0.1 1.25 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -181.842 -51.6567 1.65
+      rotation 0 0 1 2.87979
+      name "wall(3)"
+      size 0.1 3 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -184.64 -62.1271 1.65
+      rotation 0 0 1 2.87979
+      name "wall(2)"
+      size 0.1 1 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -183.718 -58.6725 1.65
+      rotation 0 0 1 2.87979
+      name "wall(1)"
+      size 0.1 3.86 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -182.745 -54.9735 1.65
+      rotation 0 0 1 2.87979
+      size 0.1 1.6 5
+      appearance BakelitePlastic {
+      }
+    }
+    Window {
+      translation -182.394 -53.668 1.65
+      rotation 0 0 1 -0.261795307179586
+      size 0.1 1.2 5
+      bottomWallHeight 1
+      windowHeight 1.5
+      wallAppearance BakelitePlastic {
+      }
+    }
+    Window {
+      translation -183.081 -56.3079 1.65
+      rotation 0 0 1 -0.261795307179586
+      name "window(1)"
+      size 0.1 1.2 5
+      bottomWallHeight 1
+      windowHeight 1.5
+      wallAppearance BakelitePlastic {
+      }
+    }
+    Window {
+      translation -181.298 -49.6898 1.65
+      rotation 0 0 1 -0.261795307179586
+      name "window(2)"
+      size 0.1 1.2 5
+      bottomWallHeight 1
+      windowHeight 1.5
+      wallAppearance BakelitePlastic {
+      }
+    }
+    Window {
+      translation -186.525 -62.1021 1.65
+      rotation 0 0 1 -1.8325953071795862
+      name "window(4)"
+      size 0.1 1.2 5
+      bottomWallHeight 1
+      windowHeight 1.5
+      wallAppearance BakelitePlastic {
+      }
+    }
+    Window {
+      translation -193.498 -60.2526 1.65
+      rotation 0 0 1 -1.8325953071795862
+      name "window(6)"
+      size 0.1 1.2 5
+      bottomWallHeight 1
+      windowHeight 1.5
+      wallAppearance BakelitePlastic {
+      }
+    }
+    Window {
+      translation -189.601 -45.6776 1.65
+      rotation 0 0 1 -1.8325953071795862
+      name "window(8)"
+      size 0.1 1.2 5
+      bottomWallHeight 1
+      windowHeight 1.5
+      wallAppearance BakelitePlastic {
+      }
+    }
+    Window {
+      translation -182.55 -47.5662 1.65
+      rotation 0 0 1 -1.8325953071795862
+      name "window(7)"
+      size 0.1 1.2 5
+      bottomWallHeight 1
+      windowHeight 1.5
+      wallAppearance BakelitePlastic {
+      }
+    }
+    Window {
+      translation -184.377 -61.1051 1.65
+      rotation 0 0 1 -0.261795307179586
+      name "window(5)"
+      size 0.1 1.2 5
+      bottomWallHeight 1
+      windowHeight 1.5
+      wallAppearance BakelitePlastic {
+      }
+    }
+  ]
+  name "suite_5"
+}
+Solid {
+  translation -160.6 199.8 -0.2
+  rotation 0 0 -1 -1.047195307179586
+  children [
+    Cabinet {
+      hidden position_6_0 -0.40834097653745255
+      hidden translation_7 0.07902036377714107 -0.01636160833896877 0
+      hidden rotation_7 0 0 -1 0.4083409765374522
+      hidden position_10_0 0.13053602393964783
+      hidden translation_11 0.02201751544905554 0.0014390834994617574 0
+      hidden rotation_11 0 0 1 0.13053602393964717
+      hidden translation_15 0.1852961240992972 0 0
+      hidden translation_23 0.19410334352105318 0 0
+      hidden translation_31 0.1852470204206047 0 0
+      hidden translation_39 0.14578802515975964 0 0
+      translation -191.22 -45.3595 1.65
+      rotation 0 0 1 -1.8326053071795858
+      name "cabinet(12)"
+      depth 0.3
+    }
+    Cabinet {
+      hidden position_6_0 -0.41325455380838505
+      hidden translation_7 0.07991681411420748 -0.016752084176977905 0
+      hidden rotation_7 0 0 -1 0.41325455380838483
+      hidden position_10_0 0.13758415634222268
+      hidden translation_11 0.023199007536663402 0.0015984301794999545 0
+      hidden rotation_11 0 0 1 0.13758415634222423
+      hidden translation_15 0.14524274841168128 0 0
+      hidden translation_23 0.15928037536092293 0 0
+      hidden translation_31 0.1451629368071531 0 0
+      hidden translation_39 0.16183663600759288 0 0
+      translation -194.105 -56.1298 1.65
+      rotation 0 0 1 -1.8326053071795858
+      name "cabinet(11)"
+      depth 0.3
+    }
+    Cabinet {
+      hidden position_6_0 6.406130381547566e-06
+      hidden translation_7 0.0776390196453062 -0.015770137181419036 0
+      hidden rotation_7 0 0 -1 0.40078996574880454
+      hidden position_10_0 -5.446174730749931e-06
+      hidden translation_11 0.01794852428832803 0.0009549555549532851 0
+      hidden rotation_11 0 0 1 0.10631024274982122
+      hidden translation_15 0.17168807214452983 0 0
+      hidden translation_23 0.1462753002603385 0 0
+      hidden translation_31 0.17168870051812643 0 0
+      hidden translation_39 0.2258236123255871 0 0
+      translation -184.706 -62.0597 1.65
+      rotation 0 0 1 2.87978
+      name "cabinet(10)"
+      depth 0.3
+    }
+    Cabinet {
+      hidden position_6_0 -0.40731456599194105
+      hidden translation_7 0.07883286021413269 -0.0162805972249824 0
+      hidden rotation_7 0 0 -1 0.4073145659919411
+      hidden position_10_0 0.11359759677378518
+      hidden translation_11 0.019173733692931412 0.0010902176715897605 0
+      hidden rotation_11 0 0 0.9999999999999999 0.11359759677378323
+      hidden translation_15 0.18645501109377227 0 0
+      hidden translation_23 0.1780341373033768 0 0
+      hidden translation_31 0.18646352506695552 0 0
+      hidden translation_39 0.2164334395271711 0 0
+      translation -185.534 -58.2125 1.65
+      rotation 0 0 1 1.30898
+      name "cabinet(9)"
+      depth 0.3
+    }
+    Cabinet {
+      hidden position_6_0 -0.40915811106136557
+      hidden translation_7 0.07916957751445577 -0.016426239573746337 0
+      hidden rotation_7 0 0 -1 0.409158111061366
+      hidden position_10_0 0.11732976567107462
+      hidden translation_11 0.01980082619318108 0.0011629475761085195 0
+      hidden rotation_11 0 0 1 0.11732976567107375
+      hidden translation_15 0.06257082730479746 0 0
+      hidden translation_23 0.1421642177191088 0 0
+      hidden translation_31 0.0625641664592469 0 0
+      hidden translation_39 0.1007597980088838 0 0
+      translation -183.53 -50.7363 1.65
+      rotation 0 0 1 -1.8326153071795863
+      name "cabinet(8)"
+      depth 0.3
+    }
+    Cabinet {
+      hidden position_6_0 -0.40504345040628364
+      hidden translation_7 0.07841768037890863 -0.01610203007143199 0
+      hidden rotation_7 0 0 -1 0.40504345040628376
+      hidden position_10_0 0.14156226605606195
+      hidden translation_11 0.02386536074005682 0.001692043913264829 0
+      hidden rotation_11 0 0 1 0.14156226605606193
+      hidden translation_15 0.18951108506621497 0 0
+      hidden translation_23 0.19051955001894644 0 0
+      hidden translation_31 0.18683952914845361 0 0
+      hidden translation_39 0.019363984805851043 0 0
+      translation -188.876 -61.0212 1.65
+      rotation 0 0 1 2.87978
+      name "cabinet(7)"
+      depth 0.3
+    }
+    Cabinet {
+      hidden position_6_0 6.406130381529812e-06
+      hidden translation_7 0.07997057532891293 -0.01677566825046989 0
+      hidden rotation_7 0 0 -1 0.41354956235662854
+      hidden position_10_0 0.12874859409095135
+      hidden translation_11 0.021717708938643013 0.0013999966662997798 0
+      hidden rotation_11 0 0 1 0.12874859409094966
+      hidden translation_15 0.1888908507624268 0 0
+      hidden translation_23 0.189614966397399 0 0
+      hidden translation_31 0.1863514290650529 0 0
+      hidden translation_39 0.014278925884779447 0 0
+      translation -185.531 -48.5318 1.65
+      rotation 0 0 1 2.87978
+      name "cabinet(6)"
+      depth 0.3
+    }
+    FloorLight {
+      translation -193.642 -59.8661 1.65
+      rotation 0 0 1 -0.261795307179586
+      name "floor light(8)"
+    }
+    FloorLight {
+      translation -190.349 -60.7485 1.65
+      rotation 0 0 1 -0.261795307179586
+      name "floor light(7)"
+    }
+    FloorLight {
+      translation -186.814 -61.6957 1.65
+      rotation 0 0 1 -0.261795307179586
+      name "floor light(6)"
+    }
+    FloorLight {
+      translation -184.796 -54.9247 1.65
+      rotation 0 0 1 -0.261795307179586
+      name "floor light(5)"
+    }
+    FloorLight {
+      translation -182.658 -52.9403 1.65
+      rotation 0 0 1 -0.261795307179586
+      name "floor light(4)"
+    }
+    FloorLight {
+      translation -184.411 -50.0984 1.65
+      rotation 0 0 1 -0.261795307179586
+      name "floor light(3)"
+    }
+    FloorLight {
+      translation -186.155 -49.6289 1.65
+      rotation 0 0 1 -0.261795307179586
+      name "floor light(2)"
+    }
+    FloorLight {
+      translation -190.584 -48.4448 1.65
+      rotation 0 0 1 -0.261795307179586
+      name "floor light(1)"
+    }
+    Desk {
+      translation -192.92 -59.7839 1.65
+      rotation 0 0 1 -1.8326053071795858
+      name "desk(7)"
+    }
+    Desk {
+      translation -190.746 -57.2633 1.65
+      rotation 0 0 -1 -1.3089953071795861
+      name "desk(6)"
+    }
+    Desk {
+      translation -184.549 -59.1516 1.65
+      rotation 0 0 -1 -1.3089953071795861
+      name "desk(5)"
+    }
+    Desk {
+      translation -184.289 -58.1762 1.65
+      rotation 0 0 -1 -1.3089953071795861
+      name "desk(4)"
+    }
+    Desk {
+      translation -182.489 -51.4343 1.65
+      rotation 0 0 -1 -1.3089953071795861
+      name "desk(3)"
+    }
+    Desk {
+      translation -182.036 -50.3365 1.65
+      rotation 0 0 1 2.87979
+      name "desk(2)"
+    }
+    Desk {
+      translation -185.618 -47.4396 1.65
+      rotation 0 0 1 2.87979
+      name "desk(1)"
+    }
+    Desk {
+      translation -188.971 -46.5427 1.65
+      rotation 0 0 1 2.87979
+    }
+    Bed {
+      translation -183.893 -55.9487 1.65
+      rotation 0 0 1 -1.8325953071795862
+      name "bed(7)"
+    }
+    Bed {
+      translation -187.651 -60.5885 1.65
+      rotation 0 0 1 1.309
+      name "bed(6)"
+    }
+    Bed {
+      translation -191.041 -59.6801 1.65
+      rotation 0 0 1 1.309
+      name "bed(5)"
+    }
+    Bed {
+      translation -194.375 -58.787 1.65
+      rotation 0 0 1 1.309
+      name "bed(4)"
+    }
+    Bed {
+      translation -183.688 -53.7939 1.65
+      rotation 0 0 1 2.8798
+      name "bed(3)"
+    }
+    Bed {
+      translation -182.352 -48.6903 1.65
+      rotation 0 0 1 2.8798
+      name "bed(2)"
+    }
+    Bed {
+      translation -187.681 -47.276 1.65
+      rotation 0 0 1 -1.8325953071795862
+      name "bed(1)"
+    }
+    Bed {
+      translation -191.309 -47.3409 1.65
+      rotation 0 0 1 1.309
+    }
+    Cabinet {
+      hidden position_6_0 -0.013041869076969236
+      hidden translation_7 0.0025952583734564823 -1.6923749845243474e-05 0
+      hidden rotation_7 0 0 -0.9999999999999999 0.013041869076968823
+      hidden position_10_0 -5.446174730749931e-06
+      hidden translation_11 0.13448821656310803 0.06656032164162609 0
+      hidden rotation_11 0 0 1 0.9191437073977504
+      hidden translation_15 -0.0029214008651314953 0 0
+      hidden translation_23 -0.0024119126082871797 0 0
+      hidden translation_31 -0.0044356671985234936 0 0
+      hidden translation_39 0.17876398615843608 0 0
+      translation -190.679 -51.6528 1.65
+      rotation 0 0 1 2.87978
+      name "cabinet(5)"
+      depth 0.3
+    }
+    Cabinet {
+      hidden position_6_0 -0.02710019596126246
+      hidden translation_7 0.00539227890626296 -7.307037960707641e-05 0
+      hidden rotation_7 0 0 -1 0.027100195961265165
+      hidden position_10_0 5.446174730844532e-06
+      hidden translation_11 0.02144532327943214 0.0013649571343120337 0
+      hidden rotation_11 0 0 1 0.12712500452877618
+      hidden translation_15 -0.0013949771998380545 0 0
+      hidden translation_23 -5.8723311069708295e-05 0 0
+      hidden translation_31 -0.0041063531994944835 0 0
+      hidden translation_39 0.018507985163997265 0 0
+      translation -191.388 -54.1185 1.65
+      rotation 0 0 1 2.87978
+      name "cabinet(4)"
+      depth 0.3
+    }
+    Cabinet {
+      hidden position_6_0 -0.4137284634884722
+      hidden translation_7 0.0800031741881848 -0.016789977992935357 0
+      hidden rotation_7 0 0 -1 0.4137284634884721
+      hidden position_10_0 0.12821101287387587
+      hidden translation_11 0.021627526553890896 0.0013883458737949106 0
+      hidden rotation_11 0 0 1 0.12821101287387643
+      hidden translation_15 0.19090809264685143 0 0
+      hidden translation_23 0.1919210098614782 0 0
+      hidden translation_31 0.18400854165356706 0 0
+      hidden translation_39 0.020913599634569142 0 0
+      translation -186.653 -52.724 1.65
+      rotation 0 0 1 2.87978
+      name "cabinet(3)"
+      depth 0.3
+    }
+    Toilet {
+      translation -191.326 -52.3354 1.65
+      rotation 0 0 1 2.8798
+      name "toilet(3)"
+    }
+    Toilet {
+      translation -191.568 -53.2244 1.65
+      rotation 0 0 1 2.8798
+      name "toilet(2)"
+    }
+    Toilet {
+      translation -187.302 -53.4444 1.65
+      rotation 0 0 1 2.8798
+      name "toilet(1)"
+    }
+    Bathtube {
+      translation -192.856 -51.257 1.67
+      rotation 0 0 1 -0.2618053071795865
+      name "bathtube(3)"
+    }
+    Bathtube {
+      translation -193.442 -53.2403 1.67
+      rotation 0 0 1 -0.2618053071795865
+      name "bathtube(2)"
+    }
+    Bathtube {
+      translation -188.782 -52.3601 1.67
+      rotation 0 0 1 -0.2618053071795865
+      name "bathtube(1)"
+    }
+    Bathtube {
+      translation -189.315 -54.3498 1.67
+      rotation 0 0 1 -0.2618053071795865
+    }
+    Toilet {
+      translation -187.535 -54.3043 1.65
+      rotation 0 0 1 2.8798
+    }
+    Cabinet {
+      hidden position_6_0 0.007637181910363345
+      hidden translation_7 -0.001519784426098679 -5.803463271308873e-06 0
+      hidden rotation_7 0 0 1 0.007637181910368157
+      hidden position_10_0 0.1107538466981924
+      hidden translation_11 0.01869573679026012 0.0010363719805284721 0
+      hidden rotation_11 0 0 1 0.11075384669819259
+      hidden translation_15 0.19225592722560478 0 0
+      hidden translation_23 0.18981274466212095 0 0
+      hidden translation_31 0.18861056703288606 0 0
+      hidden translation_39 0.023757127289988095 0 0
+      translation -187.318 -55.2064 1.65
+      rotation 0 0 1 2.87978
+      name "cabinet(2)"
+      depth 0.3
+    }
+    PottedTree {
+      translation -196.384 -60.9839 1.65
+      rotation 0 0 1 -0.261795307179586
+      name "potted tree(1)"
+    }
+    Television {
+      translation -197.989 -60.8245 3.37
+      rotation 0 0 1 1.309
+      name "television(1)"
+    }
+    Table {
+      translation -197.646 -59.0839 1.65
+      rotation 0 0 1 -0.261795307179586
+      name "table(3)"
+      size 1 1 0.4
+    }
+    Table {
+      translation -198.5 -56.9378 1.65
+      rotation 0 0 1 -1.8325953071795862
+      name "table(2)"
+      size 1 1 0.74
+    }
+    Sofa {
+      translation -198.97 -58.6622 1.65
+      rotation 0 0 1 -0.261795307179586
+      name "sofa(3)"
+    }
+    Sofa {
+      translation -197.083 -57.3406 1.65
+      rotation 0 0 1 -1.8325953071795862
+      name "sofa(2)"
+    }
+    Worktop {
+      translation -194.259 -53.5615 2.38
+      rotation 0 0 1 -1.8325953071795862
+      name "worktop(7)"
+    }
+    Worktop {
+      translation -194.21 -53.3404 2.38
+      rotation 0 0 1 -1.8325953071795862
+      name "worktop(6)"
+    }
+    Cabinet {
+      hidden position_6_0 -6.406142920999561e-06
+      hidden translation_7 1.2748224412701949e-06 -4.08292843978586e-12 0
+      hidden rotation_7 0 0 -1 6.406113008859535e-06
+      hidden position_10_0 -5.446185392296764e-06
+      hidden translation_11 -9.212222591024429e-07 2.508854235472313e-12 0
+      hidden rotation_11 0 0 -1 5.446165469934237e-06
+      hidden translation_15 0 0 0
+      hidden translation_23 0 0 0
+      hidden translation_31 0 0 0
+      hidden translation_39 0 0 0
+      translation -193.861 -52.685 1.65
+      rotation 0 0 1 2.87979
+      name "cabinet(1)"
+    }
+    Worktop {
+      translation -197.75 -53.1312 2.38
+      rotation 0 0 1 -1.8325953071795862
+      name "worktop(5)"
+    }
+    Worktop {
+      translation -197.563 -52.4641 2.38
+      rotation 0 0 1 -1.8325953071795862
+      name "worktop(4)"
+    }
+    Sink {
+      translation -197.682 -52.4399 2.47
+      rotation 0 0 1 -0.261795307179586
+      name "sink(1)"
+    }
+    Fridge {
+      hidden position_0_0 -4.3948758337295384e-05
+      hidden position_0_1 0.00013184636080709416
+      hidden translation_1 0.36 0.34 1.55
+      hidden rotation_1 0 0 -1 0.0001318463601151914
+      hidden translation_2 0.36 0.34 0.65
+      hidden rotation_2 0 0 1 0.0001318463601151914
+      translation -197.272 -51.7726 1.65
+      rotation 0 0 1 -0.261795307179586
+      name "fridge(1)"
+    }
+    Worktop {
+      translation -193.421 -50.3944 2.38
+      rotation 0 0 1 -1.8325953071795862
+      name "worktop(3)"
+    }
+    Worktop {
+      translation -193.568 -50.9262 2.38
+      rotation 0 0 1 -1.8325953071795862
+      name "worktop(2)"
+    }
+    Worktop {
+      translation -196.914 -50.03 2.38
+      rotation 0 0 1 -1.8325953071795862
+      name "worktop(1)"
+    }
+    FloorLight {
+      translation -194.98 -42.82 1.65
+    }
+    PottedTree {
+      translation -191.647 -43.2699 1.65
+      rotation 0 0 1 -0.261795307179586
+    }
+    Television {
+      translation -193.091 -42.5588 3.37
+      rotation 0 0 1 -1.8325953071795862
+    }
+    Sofa {
+      translation -194.073 -46.0979 1.65
+      rotation 0 0 1 1.309
+      name "sofa(1)"
+    }
+    Sofa {
+      translation -195.081 -44.1255 1.65
+      rotation 0 0 1 -0.261795307179586
+    }
+    Table {
+      translation -195.462 -45.6545 1.65
+      rotation 0 0 1 -1.8325953071795862
+      name "table(1)"
+      size 1 1 0.74
+    }
+    Table {
+      translation -193.741 -44.5269 1.65
+      rotation 0 0 1 -0.261795307179586
+      size 1 1 0.4
+    }
+    Cabinet {
+      hidden position_6_0 -6.406142921081796e-06
+      hidden translation_7 1.2748224412865598e-06 -4.08292843978586e-12 0
+      hidden rotation_7 0 0 -1 6.406113008859535e-06
+      hidden position_10_0 -5.44618539227183e-06
+      hidden translation_11 -9.212222590982254e-07 2.508854235472313e-12 0
+      hidden rotation_11 0 0 -0.9999999999999999 5.446165469934237e-06
+      hidden translation_15 0 0 0
+      hidden translation_23 0 0 0
+      hidden translation_31 0 0 0
+      hidden translation_39 0 0 0
+      translation -193.59 -51.6615 1.65
+      rotation 0 0 1 2.87979
+    }
+    Worktop {
+      translation -196.742 -49.3735 2.38
+      rotation 0 0 1 -1.8325953071795862
+    }
+    Sink {
+      translation -197.017 -49.948 2.47
+      rotation 0 0 1 -0.261795307179586
+    }
+    Fridge {
+      hidden position_0_0 -4.3948758338352434e-05
+      hidden position_0_1 0.00013184636080708684
+      hidden translation_1 0.36 0.34 1.55
+      hidden rotation_1 0 0 -1 0.0001318463601151914
+      hidden translation_2 0.36 0.34 0.65
+      hidden rotation_2 0 0 1 0.0001318463601151914
+      translation -196.996 -50.7297 1.65
+      rotation 0 0 1 -0.261795307179586
+    }
+    Wall {
+      translation -192.046 -60.6257 1.65
+      rotation 0 0 1 -1.8325953071795862
+      name "wall(45)"
+      size 0.1 1.8 5
+      appearance BakelitePlastic {
+      }
+    }
+    Window {
+      translation -190.638 -61.0007 1.65
+      rotation 0 0 1 -1.8325953071795862
+      name "window(11)"
+      size 0.1 1.2 5
+      bottomWallHeight 1
+      windowHeight 1.5
+      wallAppearance BakelitePlastic {
+      }
+    }
+    Window {
+      translation -186.65 -46.4735 1.65
+      rotation 0 0 1 -1.8325953071795862
+      name "window(10)"
+      size 0.1 1.2 5
+      bottomWallHeight 1
+      windowHeight 1.5
+      wallAppearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -188.14 -46.0681 1.65
+      rotation 0 0 1 -1.8325953071795862
+      name "wall(44)"
+      size 0.1 1.9 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -188.332 -57.5027 1.65
+      rotation 0 0 -1 1.83261
+      name "wall(43)"
+      size 0.1 1.03 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -185.364 -58.3621 1.65
+      rotation 0 0 -1 -1.3089953071795861
+      name "wall(13)"
+      size 0.1 3.3 5
+      appearance BakelitePlastic {
+      }
+    }
+    Door {
+      hidden translation_5 0.0012131231726272146 4.436947162350657e-05 2.886579864025407e-15
+      hidden rotation_5 0 0 -1 0.0004486594015952703
+      translation -187.374 -57.7344 1.65
+      rotation 0 0 1 1.309
+      name "door(10)"
+      size 0.1 1 5
+      position -0.00044865940139260374
+      wallAppearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -193.464 -56.147 1.65
+      rotation 0 0 -1 1.83261
+      name "wall(42)"
+      size 0.1 2.5 5
+      appearance BakelitePlastic {
+      }
+    }
+    Door {
+      hidden translation_5 0.0012131231726272146 4.436947162350657e-05 2.886579864025407e-15
+      hidden rotation_5 0 0 -1 0.0004486594015952703
+      translation -191.787 -56.5972 1.65
+      rotation 0 0 1 1.30899
+      name "door(15)"
+      size 0.1 1 5
+      position -0.00044865940139260374
+      wallAppearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -190.521 -56.9226 1.65
+      rotation 0 0 -1 1.83261
+      name "wall(41)"
+      size 0.1 1.61 5
+      appearance BakelitePlastic {
+      }
+    }
+    Door {
+      hidden translation_5 0.0012131231726271313 4.436947162350657e-05 2.886579864025407e-15
+      hidden rotation_5 0 0 -1 0.0004486594015952703
+      translation -189.275 -57.2455 1.65
+      rotation 0 0 1 1.309
+      name "door(9)"
+      size 0.1 1 5
+      position -0.0004486594013924403
+      wallAppearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -186.311 -49.9587 1.65
+      rotation 0 0 -1 1.83261
+      name "wall(40)"
+      size 0.1 1.03 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -191.447 -48.5847 1.65
+      rotation 0 0 -1 1.83261
+      name "wall(39)"
+      size 0.1 2.5 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -188.511 -49.3701 1.65
+      rotation 0 0 -1 1.83261
+      name "wall(38)"
+      size 0.1 1.61 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -193.306 -54.2023 1.65
+      rotation 0 0 -1 1.83261
+      name "wall(37)"
+      size 0.1 1.8 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -189.237 -55.2959 1.65
+      rotation 0 0 -1 1.83261
+      name "wall(36)"
+      size 0.1 1.8 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -188.209 -51.4706 1.65
+      rotation 0 0 -1 1.83261
+      name "wall(35)"
+      size 0.1 1.8 5
+      appearance BakelitePlastic {
+      }
+    }
+    Door {
+      hidden translation_5 0.01828793290724047 0.003277260688219985 1.7763568394002505e-15
+      hidden rotation_5 0 0 -1 0.03626654852896268
+      translation -186.896 -51.8124 1.65
+      rotation 0 0 1 1.309
+      name "door(14)"
+      size 0.1 1 5
+      position -0.036266548528963286
+      wallAppearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -192.291 -50.397 1.65
+      rotation 0 0 -1 1.83261
+      name "wall(34)"
+      size 0.1 1.8 5
+      appearance BakelitePlastic {
+      }
+    }
+    Door {
+      hidden translation_5 0.0012131231726271313 4.436947162350657e-05 2.886579864025407e-15
+      hidden rotation_5 0 0 -1 0.0004486594015952703
+      translation -198.319 -53.975 1.65
+      rotation 0 0 1 2.87979
+      name "door(13)"
+      size 0.1 1 5
+      position -0.0004486594013924473
+      wallAppearance BakelitePlastic {
+      }
+    }
+    Door {
+      hidden translation_5 0.001213123172626951 4.4369471623062484e-05 2.886579864025407e-15
+      hidden rotation_5 0 0 -1 0.0004486594015952703
+      translation -196.783 -48.23 1.65
+      rotation 0 0 1 2.87979
+      name "door(12)"
+      size 0.1 1 5
+      position -0.0004486594013920598
+      wallAppearance BakelitePlastic {
+      }
+    }
+    Door {
+      hidden translation_5 0.014735242168689114 0.0026566979243217714 1.5543122344752192e-15
+      hidden rotation_5 0 0 -0.9999999999999999 0.028833661873985793
+      translation -191.96 -54.5643 1.65
+      rotation 0 0 1 -1.8325953071795862
+      name "door(8)"
+      size 0.1 1 5
+      position -0.028833661873984208
+      wallAppearance BakelitePlastic {
+      }
+    }
+    Door {
+      hidden translation_5 0.5722654081230818 -0.3636834051439789 -5.10702591327572e-15
+      hidden rotation_5 0 0 -0.9999999999999999 1.5447932642017144
+      translation -187.942 -55.6426 1.65
+      rotation 0 0 1 -1.8325953071795862
+      name "door(7)"
+      size 0.1 1 5
+      position -1.5447932642017144
+      wallAppearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -190.352 -39.8637 1.65
+      rotation 0 0 1 -0.2618053071795865
+      name "wall(33)"
+      size 0.1 8 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -197.612 -66.9504 1.65
+      rotation 0 0 1 -0.2618053071795865
+      name "wall(32)"
+      size 0.1 12.4 5
+      appearance BakelitePlastic {
+      }
+    }
+    Window {
+      translation -195.881 -60.3986 1.65
+      rotation 0 0 1 2.87979
+      name "window(9)"
+      size 0.1 1.2 5
+      bottomWallHeight 1
+      windowHeight 1.5
+      wallAppearance BakelitePlastic {
+      }
+    }
+    Window {
+      translation -191.542 -44.2757 1.65
+      rotation 0 0 1 2.87979
+      name "window(3)"
+      size 0.1 1.2 5
+      bottomWallHeight 1
+      windowHeight 1.5
+      wallAppearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -193.205 -42.466 1.65
+      rotation 0 0 1 -1.8326053071795858
+      name "wall(31)"
+      size 0.1 4 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -198.141 -60.8893 1.65
+      rotation 0 0 1 -1.8326053071795858
+      name "wall(30)"
+      size 0.1 4 5
+      appearance BakelitePlastic {
+      }
+    }
+    Door {
+      hidden translation_5 0.001213123172627048 4.4369471623117995e-05 2.886579864025407e-15
+      hidden rotation_5 0 0 -1 0.0004486594015952703
+      translation -186.426 -57.5914 1.65
+      rotation 0 0 1 2.87979
+      name "door(6)"
+      size 0.1 1 5
+      position -0.0004486594013922656
+      wallAppearance BakelitePlastic {
+      }
+    }
+    Door {
+      hidden translation_5 0.0012131231726272146 4.436947162350657e-05 2.886579864025407e-15
+      hidden rotation_5 0 0 -1 0.0004486594015952703
+      translation -184.636 -50.9862 1.65
+      rotation 0 0 1 2.87979
+      name "door(5)"
+      size 0.1 1 5
+      position -0.00044865940139260374
+      wallAppearance BakelitePlastic {
+      }
+    }
+    Door {
+      hidden translation_5 0.0012131231726270342 4.436947162345106e-05 2.886579864025407e-15
+      hidden rotation_5 0 0 -1 0.0004486594015952703
+      translation -189.758 -49.0337 1.65
+      rotation 0 0 -1 1.8326
+      name "door(4)"
+      size 0.1 1 5
+      position -0.00044865940139222053
+      wallAppearance BakelitePlastic {
+      }
+    }
+    Door {
+      hidden translation_5 0.0012131231726270758 4.436947162350657e-05 2.886579864025407e-15
+      hidden rotation_5 0 0 -1 0.0004486594015952703
+      translation -185.336 -50.2182 1.65
+      rotation 0 0 1 -1.8325953071795862
+      name "door(3)"
+      size 0.1 1 5
+      position -0.00044865940139232456
+      wallAppearance BakelitePlastic {
+      }
+    }
+    Door {
+      hidden translation_5 0.001457688261936721 9.516183320390503e-05 4.440892098500626e-16
+      hidden rotation_5 0 0 -0.9999999999999999 0.0009634576510804176
+      translation -187.253 -49.7018 1.65
+      rotation 0 0 1 -1.8325953071795862
+      name "door(2)"
+      size 0.1 1 5
+      position -0.0009634576512305178
+      wallAppearance BakelitePlastic {
+      }
+    }
+    Door {
+      hidden translation_5 0.0012131231726272146 4.436947162350657e-05 2.886579864025407e-15
+      hidden rotation_5 0 0 -1 0.0004486594015952703
+      translation -190.943 -50.7558 1.65
+      rotation 0 0 1 1.309
+      name "door(1)"
+      size 0.1 1 5
+      position -0.00044865940139260374
+      wallAppearance BakelitePlastic {
+      }
+      frameAppearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -190.929 -52.8016 1.65
+      rotation 0 0 1 -0.2618053071795865
+      name "wall(29)"
+      size 0.1 4.05 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -193.632 -52.0757 1.65
+      rotation 0 0 1 -0.2618053071795865
+      name "wall(28)"
+      size 0.1 4 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -189.545 -53.1307 1.65
+      rotation 0 0 1 -0.2618053071795865
+      name "wall(27)"
+      size 0.1 4 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -186.898 -53.8688 1.65
+      rotation 0 0 1 -0.2618053071795865
+      name "wall(26)"
+      size 0.1 4.05 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -199.233 -57.3815 1.65
+      rotation 0 0 1 2.87979
+      name "wall(25)"
+      size 0.1 6.14 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -195.872 -44.8575 1.65
+      rotation 0 0 1 2.87979
+      name "wall(24)"
+      size 0.1 6 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -197.558 -51.1259 1.65
+      rotation 0 0 1 2.87979
+      name "wall(23)"
+      size 0.1 5 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -192.287 -52.4947 1.65
+      rotation 0 0 1 -1.8325953071795862
+      name "wall(22)"
+      size 0.1 11 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -195.176 -57.8234 1.65
+      rotation 0 0 1 -0.2618053071795865
+      name "wall(21)"
+      size 0.1 4.15 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -191.826 -58.6569 1.65
+      rotation 0 0 1 -0.2618053071795865
+      name "wall(20)"
+      size 0.1 4 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -188.417 -59.5484 1.65
+      rotation 0 0 1 -0.2618053071795865
+      name "wall(19)"
+      size 0.1 4 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -192.151 -46.5317 1.65
+      rotation 9.58979e-09 7.284e-08 1 -0.2618053071795865
+      name "wall(18)"
+      size 0.1 3.5 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -188.801 -47.5734 1.65
+      rotation 0 0 1 -0.2618053071795865
+      name "wall(17)"
+      size 0.1 3.3 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -185.459 -48.4888 1.65
+      rotation 0 0 1 -0.2618053071795865
+      name "wall(16)"
+      size 0.1 3.3 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -185.92 -55.7353 1.65
+      rotation 0 0 1 -0.2618053071795865
+      name "wall(15)"
+      size 0.1 3 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -185.14 -52.8749 1.65
+      rotation 0 0 1 -0.2618053071795865
+      name "wall(14)"
+      size 0.1 3 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -183.275 -50.7729 1.65
+      rotation 0 0 -1 -1.3089953071795861
+      name "wall(12)"
+      size 0.1 3.3 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -188.105 -53.6151 1.65
+      rotation 0 0 1 -1.8325953071795862
+      name "wall(11)"
+      size 0.1 11 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -194.878 -59.8894 1.65
+      rotation 0 0 -1 -1.3089953071795861
+      name "wall(10)"
+      size 0.1 1.75 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -190.989 -45.3084 1.65
+      rotation 0 0 -1 -1.3089953071795861
+      name "wall(9)"
+      size 0.1 1.7 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -181.409 -47.8665 1.65
+      rotation 0 0 -1 -1.3089953071795861
+      name "wall(8)"
+      size 0.1 1.25 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -184.616 -47.0169 1.65
+      rotation 0 0 1 -1.8325953071795862
+      name "wall(7)"
+      size 0.1 3.075 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -188.588 -61.5522 1.65
+      rotation 0 0 1 -1.8325953071795862
+      name "wall(6)"
+      size 0.1 3.075 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -181.012 -48.6127 1.65
+      rotation 0 0 1 2.87979
+      name "wall(5)"
+      size 0.1 1.2 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -185.354 -62.4 1.65
+      rotation 0 0 -1 -1.3089953071795861
+      name "wall(4)"
+      size 0.1 1.25 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -181.842 -51.6567 1.65
+      rotation 0 0 1 2.87979
+      name "wall(3)"
+      size 0.1 3 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -184.64 -62.1271 1.65
+      rotation 0 0 1 2.87979
+      name "wall(2)"
+      size 0.1 1 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -183.718 -58.6725 1.65
+      rotation 0 0 1 2.87979
+      name "wall(1)"
+      size 0.1 3.86 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -182.745 -54.9735 1.65
+      rotation 0 0 1 2.87979
+      size 0.1 1.6 5
+      appearance BakelitePlastic {
+      }
+    }
+    Window {
+      translation -182.394 -53.668 1.65
+      rotation 0 0 1 -0.261795307179586
+      size 0.1 1.2 5
+      bottomWallHeight 1
+      windowHeight 1.5
+      wallAppearance BakelitePlastic {
+      }
+    }
+    Window {
+      translation -183.081 -56.3079 1.65
+      rotation 0 0 1 -0.261795307179586
+      name "window(1)"
+      size 0.1 1.2 5
+      bottomWallHeight 1
+      windowHeight 1.5
+      wallAppearance BakelitePlastic {
+      }
+    }
+    Window {
+      translation -181.298 -49.6898 1.65
+      rotation 0 0 1 -0.261795307179586
+      name "window(2)"
+      size 0.1 1.2 5
+      bottomWallHeight 1
+      windowHeight 1.5
+      wallAppearance BakelitePlastic {
+      }
+    }
+    Window {
+      translation -186.525 -62.1021 1.65
+      rotation 0 0 1 -1.8325953071795862
+      name "window(4)"
+      size 0.1 1.2 5
+      bottomWallHeight 1
+      windowHeight 1.5
+      wallAppearance BakelitePlastic {
+      }
+    }
+    Window {
+      translation -193.498 -60.2526 1.65
+      rotation 0 0 1 -1.8325953071795862
+      name "window(6)"
+      size 0.1 1.2 5
+      bottomWallHeight 1
+      windowHeight 1.5
+      wallAppearance BakelitePlastic {
+      }
+    }
+    Window {
+      translation -189.601 -45.6776 1.65
+      rotation 0 0 1 -1.8325953071795862
+      name "window(8)"
+      size 0.1 1.2 5
+      bottomWallHeight 1
+      windowHeight 1.5
+      wallAppearance BakelitePlastic {
+      }
+    }
+    Window {
+      translation -182.55 -47.5662 1.65
+      rotation 0 0 1 -1.8325953071795862
+      name "window(7)"
+      size 0.1 1.2 5
+      bottomWallHeight 1
+      windowHeight 1.5
+      wallAppearance BakelitePlastic {
+      }
+    }
+    Window {
+      translation -184.377 -61.1051 1.65
+      rotation 0 0 1 -0.261795307179586
+      name "window(5)"
+      size 0.1 1.2 5
+      bottomWallHeight 1
+      windowHeight 1.5
+      wallAppearance BakelitePlastic {
+      }
+    }
+  ]
+  name "suite_4"
+}
+Solid {
+  translation -272.1 -196.6 -0.2
+  rotation 0 0 1 -2.094395307179586
+  children [
+    Wall {
+      translation -205.602 -65.8751 1.65
+      rotation 0 0 1 -0.2618053071795865
+      name "wall(57)"
+      size 0.1 1.5 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -201.749 -66.6909 1.65
+      rotation 0 0 1 -0.2618053071795865
+      name "wall(56)"
+      size 0.1 1 5
+      appearance BakelitePlastic {
+      }
+    }
+    Solid {
+      translation -202.271 -68.6762 1.65
+      rotation 0 0 1 -0.2618053071795865
+      children [
+        Solid {
+          translation 0 0 2.5
+          children [
+            Shape {
+              appearance BakelitePlastic {
+              }
+              geometry Box {
+                size 0.1 1.2 5
+              }
+            }
+          ]
+          boundingObject Box {
+            size 0.1 1.2 5
+          }
+        }
+      ]
+      name "wall(55)"
+      model "wall"
+    }
+    Solid {
+      translation -206.214 -68.1064 1.65
+      rotation 0 0 1 -0.2618053071795865
+      children [
+        Solid {
+          translation 0 0 2.5
+          children [
+            Shape {
+              appearance BakelitePlastic {
+              }
+              geometry Box {
+                size 0.1 1.2 5
+              }
+            }
+          ]
+          boundingObject Box {
+            size 0.1 1.2 5
+          }
+        }
+      ]
+      name "wall(54)"
+      model "wall"
+    }
+    Wall {
+      translation -200.768 -63.236 1.65
+      rotation 0 0 1 -0.2618053071795865
+      name "wall(53)"
+      size 0.1 1.6 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -199.699 -66.7054 1.65
+      rotation 0 0 1 -1.8326053071795858
+      name "wall(52)"
+      size 0.1 4.1 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -199.034 -64.5062 1.65
+      rotation 0 0 1 -1.8326053071795858
+      name "wall(51)"
+      size 0.1 4.1 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -207.397 -64.6428 1.65
+      rotation 0 0 1 -1.8326053071795858
+      name "wall(50)"
+      size 0.1 4.1 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -206.803 -62.4214 1.65
+      rotation 0 0 1 -1.8326053071795858
+      name "wall(49)"
+      size 0.1 4.1 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -204.656 -62.329 1.65
+      rotation 0 0 1 -0.2618053071795865
+      name "wall(48)"
+      size 0.1 1.2 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -204.102 -60.2525 1.65
+      rotation 0 0 1 -0.2618053071795865
+      name "wall(47)"
+      size 0.1 1.2 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -200.165 -60.9672 1.65
+      rotation 0 0 1 -0.2618053071795865
+      name "wall(46)"
+      size 0.1 1.2 5
+      appearance BakelitePlastic {
+      }
+    }
+    Cabinet {
+      hidden position_6_0 -0.40834097653745255
+      hidden translation_7 0.07902036377714107 -0.01636160833896877 0
+      hidden rotation_7 0 0 -1 0.4083409765374522
+      hidden position_10_0 0.13053602393964808
+      hidden translation_11 0.022017515449055586 0.0014390834994617574 0
+      hidden rotation_11 0 0 1 0.13053602393964717
+      hidden translation_15 0.1852961240992972 0 0
+      hidden translation_23 0.19410334352105318 0 0
+      hidden translation_31 0.1852470204206047 0 0
+      hidden translation_39 0.14578802515975964 0 0
+      translation -191.22 -45.3595 1.65
+      rotation 0 0 1 -1.8326053071795858
+      name "cabinet(12)"
+      depth 0.3
+    }
+    Cabinet {
+      hidden position_6_0 -0.41325455380838505
+      hidden translation_7 0.07991681411420748 -0.016752084176977905 0
+      hidden rotation_7 0 0 -1 0.41325455380838483
+      hidden position_10_0 0.13758415634222265
+      hidden translation_11 0.023199007536663395 0.0015984301794999545 0
+      hidden rotation_11 0 0 1 0.13758415634222423
+      hidden translation_15 0.14524274841168128 0 0
+      hidden translation_23 0.15928037536092293 0 0
+      hidden translation_31 0.1451629368071531 0 0
+      hidden translation_39 0.16183663600759288 0 0
+      translation -194.105 -56.1298 1.65
+      rotation 0 0 1 -1.8326053071795858
+      name "cabinet(11)"
+      depth 0.3
+    }
+    Cabinet {
+      hidden position_6_0 6.406130381568115e-06
+      hidden translation_7 0.0776390196453062 -0.015770137181419036 0
+      hidden rotation_7 0 0 -1 0.40078996574880454
+      hidden position_10_0 -5.446174730480292e-06
+      hidden translation_11 0.017948524288328074 0.0009549555549532851 0
+      hidden rotation_11 0 0 1 0.10631024274982122
+      hidden translation_15 0.17168807214452983 0 0
+      hidden translation_23 0.1462753002603385 0 0
+      hidden translation_31 0.17168870051812643 0 0
+      hidden translation_39 0.2258236123255871 0 0
+      translation -184.706 -62.0597 1.65
+      rotation 0 0 1 2.87978
+      name "cabinet(10)"
+      depth 0.3
+    }
+    Cabinet {
+      hidden position_6_0 -0.40731456599194105
+      hidden translation_7 0.07883286021413269 -0.0162805972249824 0
+      hidden rotation_7 0 0 -1 0.4073145659919411
+      hidden position_10_0 0.11359759677378495
+      hidden translation_11 0.01917373369293137 0.0010902176715897605 0
+      hidden rotation_11 0 0 1 0.11359759677378323
+      hidden translation_15 0.18645501109377227 0 0
+      hidden translation_23 0.1780341373033768 0 0
+      hidden translation_31 0.18646352506695552 0 0
+      hidden translation_39 0.2164334395271711 0 0
+      translation -185.534 -58.2125 1.65
+      rotation 0 0 1 1.30898
+      name "cabinet(9)"
+      depth 0.3
+    }
+    Cabinet {
+      hidden position_6_0 -0.40915811106136557
+      hidden translation_7 0.07916957751445577 -0.016426239573746337 0
+      hidden rotation_7 0 0 -1 0.409158111061366
+      hidden position_10_0 0.11732976567107462
+      hidden translation_11 0.01980082619318108 0.0011629475761085195 0
+      hidden rotation_11 0 0 1 0.11732976567107375
+      hidden translation_15 0.06257082730479746 0 0
+      hidden translation_23 0.1421642177191088 0 0
+      hidden translation_31 0.0625641664592469 0 0
+      hidden translation_39 0.1007597980088838 0 0
+      translation -183.53 -50.7363 1.65
+      rotation 0 0 1 -1.8326153071795863
+      name "cabinet(8)"
+      depth 0.3
+    }
+    Cabinet {
+      hidden position_6_0 -0.40504345040628364
+      hidden translation_7 0.07841768037890863 -0.01610203007143199 0
+      hidden rotation_7 0 0 -1 0.40504345040628376
+      hidden position_10_0 0.14156226605606195
+      hidden translation_11 0.02386536074005682 0.001692043913264829 0
+      hidden rotation_11 0 0 1 0.14156226605606193
+      hidden translation_15 0.18951108506621497 0 0
+      hidden translation_23 0.19051955001894644 0 0
+      hidden translation_31 0.18683952914845361 0 0
+      hidden translation_39 0.019363984805851043 0 0
+      translation -188.876 -61.0212 1.65
+      rotation 0 0 1 2.87978
+      name "cabinet(7)"
+      depth 0.3
+    }
+    Cabinet {
+      hidden position_6_0 6.406130381562422e-06
+      hidden translation_7 0.07997057532891293 -0.01677566825046989 0
+      hidden rotation_7 0 0 -1 0.4135495623566275
+      hidden position_10_0 0.12874859409095135
+      hidden translation_11 0.021717708938643013 0.0013999966662997798 0
+      hidden rotation_11 0 0 1 0.12874859409094966
+      hidden translation_15 0.1888908507624268 0 0
+      hidden translation_23 0.189614966397399 0 0
+      hidden translation_31 0.1863514290650529 0 0
+      hidden translation_39 0.014278925884779447 0 0
+      translation -185.531 -48.5318 1.65
+      rotation 0 0 1 2.87978
+      name "cabinet(6)"
+      depth 0.3
+    }
+    FloorLight {
+      translation -193.642 -59.8661 1.65
+      rotation 0 0 1 -0.261795307179586
+      name "floor light(8)"
+    }
+    FloorLight {
+      translation -190.349 -60.7485 1.65
+      rotation 0 0 1 -0.261795307179586
+      name "floor light(7)"
+    }
+    FloorLight {
+      translation -186.814 -61.6957 1.65
+      rotation 0 0 1 -0.261795307179586
+      name "floor light(6)"
+    }
+    FloorLight {
+      translation -184.796 -54.9247 1.65
+      rotation 0 0 1 -0.261795307179586
+      name "floor light(5)"
+    }
+    FloorLight {
+      translation -182.658 -52.9403 1.65
+      rotation 0 0 1 -0.261795307179586
+      name "floor light(4)"
+    }
+    FloorLight {
+      translation -184.411 -50.0984 1.65
+      rotation 0 0 1 -0.261795307179586
+      name "floor light(3)"
+    }
+    FloorLight {
+      translation -186.155 -49.6289 1.65
+      rotation 0 0 1 -0.261795307179586
+      name "floor light(2)"
+    }
+    FloorLight {
+      translation -190.584 -48.4448 1.65
+      rotation 0 0 1 -0.261795307179586
+      name "floor light(1)"
+    }
+    Desk {
+      translation -192.92 -59.7839 1.65
+      rotation 0 0 1 -1.8326053071795858
+      name "desk(7)"
+    }
+    Desk {
+      translation -190.746 -57.2633 1.65
+      rotation 0 0 -1 -1.3089953071795861
+      name "desk(6)"
+    }
+    Desk {
+      translation -184.549 -59.1516 1.65
+      rotation 0 0 -1 -1.3089953071795861
+      name "desk(5)"
+    }
+    Desk {
+      translation -184.289 -58.1762 1.65
+      rotation 0 0 -1 -1.3089953071795861
+      name "desk(4)"
+    }
+    Desk {
+      translation -182.489 -51.4343 1.65
+      rotation 0 0 -1 -1.3089953071795861
+      name "desk(3)"
+    }
+    Desk {
+      translation -182.036 -50.3365 1.65
+      rotation 0 0 1 2.87979
+      name "desk(2)"
+    }
+    Desk {
+      translation -185.618 -47.4396 1.65
+      rotation 0 0 1 2.87979
+      name "desk(1)"
+    }
+    Desk {
+      translation -188.971 -46.5427 1.65
+      rotation 0 0 1 2.87979
+    }
+    Bed {
+      translation -183.893 -55.9487 1.65
+      rotation 0 0 1 -1.8325953071795862
+      name "bed(7)"
+    }
+    Bed {
+      translation -187.651 -60.5885 1.65
+      rotation 0 0 1 1.309
+      name "bed(6)"
+    }
+    Bed {
+      translation -191.041 -59.6801 1.65
+      rotation 0 0 1 1.309
+      name "bed(5)"
+    }
+    Bed {
+      translation -194.375 -58.787 1.65
+      rotation 0 0 1 1.309
+      name "bed(4)"
+    }
+    Bed {
+      translation -183.688 -53.7939 1.65
+      rotation 0 0 1 2.8798
+      name "bed(3)"
+    }
+    Bed {
+      translation -182.352 -48.6903 1.65
+      rotation 0 0 1 2.8798
+      name "bed(2)"
+    }
+    Bed {
+      translation -187.681 -47.276 1.65
+      rotation 0 0 1 -1.8325953071795862
+      name "bed(1)"
+    }
+    Bed {
+      translation -191.309 -47.3409 1.65
+      rotation 0 0 1 1.309
+    }
+    Cabinet {
+      hidden position_6_0 -0.013041869076969267
+      hidden translation_7 0.002595258373456489 -1.6923749845243474e-05 0
+      hidden rotation_7 0 0 -0.9999999999999999 0.013041869076968823
+      hidden position_10_0 -5.44617473061233e-06
+      hidden translation_11 0.13448821656310805 0.0665603216416261 0
+      hidden rotation_11 0 0 1 0.9191437073977504
+      hidden translation_15 -0.0029214008651314953 0 0
+      hidden translation_23 -0.0024119126082871797 0 0
+      hidden translation_31 -0.0044356671985234936 0 0
+      hidden translation_39 0.17876398615843608 0 0
+      translation -190.679 -51.6528 1.65
+      rotation 0 0 1 2.87978
+      name "cabinet(5)"
+      depth 0.3
+    }
+    Cabinet {
+      hidden position_6_0 -0.02710019596126249
+      hidden translation_7 0.005392278906262966 -7.307037960707641e-05 0
+      hidden rotation_7 0 0 -1 0.027100195961265165
+      hidden position_10_0 5.446174730832115e-06
+      hidden translation_11 0.021445323279432136 0.0013649571343120337 0
+      hidden rotation_11 0 0 1 0.12712500452877618
+      hidden translation_15 -0.0013949771998380545 0 0
+      hidden translation_23 -5.8723311069708295e-05 0 0
+      hidden translation_31 -0.0041063531994944835 0 0
+      hidden translation_39 0.018507985163997265 0 0
+      translation -191.388 -54.1185 1.65
+      rotation 0 0 1 2.87978
+      name "cabinet(4)"
+      depth 0.3
+    }
+    Cabinet {
+      hidden position_6_0 -0.4137284634884722
+      hidden translation_7 0.0800031741881848 -0.016789977992935357 0
+      hidden rotation_7 0 0 -1 0.4137284634884721
+      hidden position_10_0 0.12821101287387587
+      hidden translation_11 0.021627526553890896 0.0013883458737949106 0
+      hidden rotation_11 0 0 1 0.12821101287387643
+      hidden translation_15 0.19090809264685143 0 0
+      hidden translation_23 0.1919210098614782 0 0
+      hidden translation_31 0.18400854165356706 0 0
+      hidden translation_39 0.020913599634569142 0 0
+      translation -186.653 -52.724 1.65
+      rotation 0 0 1 2.87978
+      name "cabinet(3)"
+      depth 0.3
+    }
+    Toilet {
+      translation -191.326 -52.3354 1.65
+      rotation 0 0 1 2.8798
+      name "toilet(3)"
+    }
+    Toilet {
+      translation -191.568 -53.2244 1.65
+      rotation 0 0 1 2.8798
+      name "toilet(2)"
+    }
+    Toilet {
+      translation -187.302 -53.4444 1.65
+      rotation 0 0 1 2.8798
+      name "toilet(1)"
+    }
+    Bathtube {
+      translation -192.856 -51.257 1.67
+      rotation 0 0 1 -0.2618053071795865
+      name "bathtube(3)"
+    }
+    Bathtube {
+      translation -193.442 -53.2403 1.67
+      rotation 0 0 1 -0.2618053071795865
+      name "bathtube(2)"
+    }
+    Bathtube {
+      translation -188.782 -52.3601 1.67
+      rotation 0 0 1 -0.2618053071795865
+      name "bathtube(1)"
+    }
+    Bathtube {
+      translation -189.315 -54.3498 1.67
+      rotation 0 0 1 -0.2618053071795865
+    }
+    Toilet {
+      translation -187.535 -54.3043 1.65
+      rotation 0 0 1 2.8798
+    }
+    Cabinet {
+      hidden position_6_0 0.007637181910363348
+      hidden translation_7 -0.0015197844260986797 -5.803463271308873e-06 0
+      hidden rotation_7 0 0 0.9999999999999999 0.007637181910368157
+      hidden position_10_0 0.1107538466981924
+      hidden translation_11 0.01869573679026012 0.0010363719805284721 0
+      hidden rotation_11 0 0 1 0.11075384669819259
+      hidden translation_15 0.19225592722560478 0 0
+      hidden translation_23 0.18981274466212095 0 0
+      hidden translation_31 0.18861056703288606 0 0
+      hidden translation_39 0.023757127289988095 0 0
+      translation -187.318 -55.2064 1.65
+      rotation 0 0 1 2.87978
+      name "cabinet(2)"
+      depth 0.3
+    }
+    PottedTree {
+      translation -196.384 -60.9839 1.65
+      rotation 0 0 1 -0.261795307179586
+      name "potted tree(1)"
+    }
+    Television {
+      translation -197.989 -60.8245 3.37
+      rotation 0 0 1 1.309
+      name "television(1)"
+    }
+    Table {
+      translation -197.646 -59.0839 1.65
+      rotation 0 0 1 -0.261795307179586
+      name "table(3)"
+      size 1 1 0.4
+    }
+    Table {
+      translation -198.5 -56.9378 1.65
+      rotation 0 0 1 -1.8325953071795862
+      name "table(2)"
+      size 1 1 0.74
+    }
+    Sofa {
+      translation -198.97 -58.6622 1.65
+      rotation 0 0 1 -0.261795307179586
+      name "sofa(3)"
+    }
+    Sofa {
+      translation -197.083 -57.3406 1.65
+      rotation 0 0 1 -1.8325953071795862
+      name "sofa(2)"
+    }
+    Worktop {
+      translation -194.259 -53.5615 2.38
+      rotation 0 0 1 -1.8325953071795862
+      name "worktop(7)"
+    }
+    Worktop {
+      translation -194.21 -53.3404 2.38
+      rotation 0 0 1 -1.8325953071795862
+      name "worktop(6)"
+    }
+    Cabinet {
+      hidden position_6_0 -6.406142921005762e-06
+      hidden translation_7 1.274822441271429e-06 -4.08292843978586e-12 0
+      hidden rotation_7 0 0 -1 6.406113008859535e-06
+      hidden position_10_0 -5.446185392281872e-06
+      hidden translation_11 -9.212222590999241e-07 2.508854235472313e-12 0
+      hidden rotation_11 0 0 -1 5.446165469934237e-06
+      hidden translation_15 0 0 0
+      hidden translation_23 0 0 0
+      hidden translation_31 0 0 0
+      hidden translation_39 0 0 0
+      translation -193.861 -52.685 1.65
+      rotation 0 0 1 2.87979
+      name "cabinet(1)"
+    }
+    Worktop {
+      translation -197.75 -53.1312 2.38
+      rotation 0 0 1 -1.8325953071795862
+      name "worktop(5)"
+    }
+    Worktop {
+      translation -197.563 -52.4641 2.38
+      rotation 0 0 1 -1.8325953071795862
+      name "worktop(4)"
+    }
+    Sink {
+      translation -197.682 -52.4399 2.47
+      rotation 0 0 1 -0.261795307179586
+      name "sink(1)"
+    }
+    Fridge {
+      hidden position_0_0 -4.3948758338203925e-05
+      hidden position_0_1 0.00013184636080707104
+      hidden translation_1 0.36 0.34 1.55
+      hidden rotation_1 0 0 -1 0.0001318463601151914
+      hidden translation_2 0.36 0.34 0.65
+      hidden rotation_2 0 0 1 0.0001318463601151914
+      translation -197.272 -51.7726 1.65
+      rotation 0 0 1 -0.261795307179586
+      name "fridge(1)"
+    }
+    Worktop {
+      translation -193.421 -50.3944 2.38
+      rotation 0 0 1 -1.8325953071795862
+      name "worktop(3)"
+    }
+    Worktop {
+      translation -193.568 -50.9262 2.38
+      rotation 0 0 1 -1.8325953071795862
+      name "worktop(2)"
+    }
+    Worktop {
+      translation -196.914 -50.03 2.38
+      rotation 0 0 1 -1.8325953071795862
+      name "worktop(1)"
+    }
+    FloorLight {
+      translation -194.98 -42.82 1.65
+    }
+    PottedTree {
+      translation -191.647 -43.2699 1.65
+      rotation 0 0 1 -0.261795307179586
+    }
+    Television {
+      translation -193.091 -42.5588 3.37
+      rotation 0 0 1 -1.8325953071795862
+    }
+    Sofa {
+      translation -194.073 -46.0979 1.65
+      rotation 0 0 1 1.309
+      name "sofa(1)"
+    }
+    Sofa {
+      translation -195.081 -44.1255 1.65
+      rotation 0 0 1 -0.261795307179586
+    }
+    Table {
+      translation -195.462 -45.6545 1.65
+      rotation 0 0 1 -1.8325953071795862
+      name "table(1)"
+      size 1 1 0.74
+    }
+    Table {
+      translation -193.741 -44.5269 1.65
+      rotation 0 0 1 -0.261795307179586
+      size 1 1 0.4
+    }
+    Cabinet {
+      hidden position_6_0 -6.40614292107931e-06
+      hidden translation_7 1.2748224412860649e-06 -4.08292843978586e-12 0
+      hidden rotation_7 0 0 -0.9999999999999999 6.406113008859535e-06
+      hidden position_10_0 -5.446185392266009e-06
+      hidden translation_11 -9.212222590972408e-07 2.508854235472313e-12 0
+      hidden rotation_11 0 0 -1 5.446165469934237e-06
+      hidden translation_15 0 0 0
+      hidden translation_23 0 0 0
+      hidden translation_31 0 0 0
+      hidden translation_39 0 0 0
+      translation -193.59 -51.6615 1.65
+      rotation 0 0 1 2.87979
+    }
+    Worktop {
+      translation -196.742 -49.3735 2.38
+      rotation 0 0 1 -1.8325953071795862
+    }
+    Sink {
+      translation -197.017 -49.948 2.47
+      rotation 0 0 1 -0.261795307179586
+    }
+    Fridge {
+      hidden position_0_0 -4.394875833736283e-05
+      hidden position_0_1 0.00013184636080708096
+      hidden translation_1 0.36 0.34 1.55
+      hidden rotation_1 0 0 -1 0.0001318463601151914
+      hidden translation_2 0.36 0.34 0.65
+      hidden rotation_2 0 0 1 0.0001318463601151914
+      translation -196.996 -50.7297 1.65
+      rotation 0 0 1 -0.261795307179586
+    }
+    Wall {
+      translation -192.046 -60.6257 1.65
+      rotation 0 0 1 -1.8325953071795862
+      name "wall(45)"
+      size 0.1 1.8 5
+      appearance BakelitePlastic {
+      }
+    }
+    Window {
+      translation -190.638 -61.0007 1.65
+      rotation 0 0 1 -1.8325953071795862
+      name "window(11)"
+      size 0.1 1.2 5
+      bottomWallHeight 1
+      windowHeight 1.5
+      wallAppearance BakelitePlastic {
+      }
+    }
+    Window {
+      translation -186.65 -46.4735 1.65
+      rotation 0 0 1 -1.8325953071795862
+      name "window(10)"
+      size 0.1 1.2 5
+      bottomWallHeight 1
+      windowHeight 1.5
+      wallAppearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -188.14 -46.0681 1.65
+      rotation 0 0 1 -1.8325953071795862
+      name "wall(44)"
+      size 0.1 1.9 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -188.332 -57.5027 1.65
+      rotation 0 0 -1 1.83261
+      name "wall(43)"
+      size 0.1 1.03 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -185.364 -58.3621 1.65
+      rotation 0 0 -1 -1.3089953071795861
+      name "wall(13)"
+      size 0.1 3.3 5
+      appearance BakelitePlastic {
+      }
+    }
+    Door {
+      hidden translation_5 0.0012131231726272146 4.436947162350657e-05 2.886579864025407e-15
+      hidden rotation_5 0 0 -1 0.0004486594015952703
+      translation -187.374 -57.7344 1.65
+      rotation 0 0 1 1.309
+      name "door(10)"
+      size 0.1 1 5
+      position -0.00044865940139260374
+      wallAppearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -193.464 -56.147 1.65
+      rotation 0 0 -1 1.83261
+      name "wall(42)"
+      size 0.1 2.5 5
+      appearance BakelitePlastic {
+      }
+    }
+    Door {
+      hidden translation_5 0.0012131231726270897 4.436947162350657e-05 2.886579864025407e-15
+      hidden rotation_5 0 0 -1 0.0004486594015952703
+      translation -191.787 -56.5972 1.65
+      rotation 0 0 1 1.30899
+      name "door(15)"
+      size 0.1 1 5
+      position -0.0004486594013923574
+      wallAppearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -190.521 -56.9226 1.65
+      rotation 0 0 -1 1.83261
+      name "wall(41)"
+      size 0.1 1.61 5
+      appearance BakelitePlastic {
+      }
+    }
+    Door {
+      hidden translation_5 0.0012131231726272146 4.436947162350657e-05 2.886579864025407e-15
+      hidden rotation_5 0 0 -1 0.0004486594015952703
+      translation -189.275 -57.2455 1.65
+      rotation 0 0 1 1.309
+      name "door(9)"
+      size 0.1 1 5
+      position -0.00044865940139260374
+      wallAppearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -186.311 -49.9587 1.65
+      rotation 0 0 -1 1.83261
+      name "wall(40)"
+      size 0.1 1.03 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -191.447 -48.5847 1.65
+      rotation 0 0 -1 1.83261
+      name "wall(39)"
+      size 0.1 2.5 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -188.511 -49.3701 1.65
+      rotation 0 0 -1 1.83261
+      name "wall(38)"
+      size 0.1 1.61 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -193.306 -54.2023 1.65
+      rotation 0 0 -1 1.83261
+      name "wall(37)"
+      size 0.1 1.8 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -189.237 -55.2959 1.65
+      rotation 0 0 -1 1.83261
+      name "wall(36)"
+      size 0.1 1.8 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -188.209 -51.4706 1.65
+      rotation 0 0 -1 1.83261
+      name "wall(35)"
+      size 0.1 1.8 5
+      appearance BakelitePlastic {
+      }
+    }
+    Door {
+      hidden translation_5 0.018287932907240484 0.0032772606882200406 1.7763568394002505e-15
+      hidden rotation_5 0 0 -1 0.03626654852896268
+      translation -186.896 -51.8124 1.65
+      rotation 0 0 1 1.309
+      name "door(14)"
+      size 0.1 1 5
+      position -0.03626654852896333
+      wallAppearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -192.291 -50.397 1.65
+      rotation 0 0 -1 1.83261
+      name "wall(34)"
+      size 0.1 1.8 5
+      appearance BakelitePlastic {
+      }
+    }
+    Door {
+      hidden translation_5 0.0012131231726271313 4.436947162350657e-05 2.886579864025407e-15
+      hidden rotation_5 0 0 -1 0.0004486594015952703
+      translation -198.319 -53.975 1.65
+      rotation 0 0 1 2.87979
+      name "door(13)"
+      size 0.1 1 5
+      position -0.0004486594013924301
+      wallAppearance BakelitePlastic {
+      }
+    }
+    Door {
+      hidden translation_5 0.0012131231726268399 4.4369471623062484e-05 2.886579864025407e-15
+      hidden rotation_5 0 0 -1 0.0004486594015952703
+      translation -196.783 -48.23 1.65
+      rotation 0 0 1 2.87979
+      name "door(12)"
+      size 0.1 1 5
+      position -0.000448659401391833
+      wallAppearance BakelitePlastic {
+      }
+    }
+    Door {
+      hidden translation_5 0.014735242168689142 0.0026566979243217714 1.5543122344752192e-15
+      hidden rotation_5 0 0 -0.9999999999999999 0.028833661873985793
+      translation -191.96 -54.5643 1.65
+      rotation 0 0 1 -1.8325953071795862
+      name "door(8)"
+      size 0.1 1 5
+      position -0.028833661873984267
+      wallAppearance BakelitePlastic {
+      }
+    }
+    Door {
+      hidden translation_5 0.5722654081230818 -0.363683405143979 -5.329070518200751e-15
+      hidden rotation_5 0 0 -0.9999999999999999 1.5447932642017146
+      translation -187.942 -55.6426 1.65
+      rotation 0 0 1 -1.8325953071795862
+      name "door(7)"
+      size 0.1 1 5
+      position -1.5447932642017146
+      wallAppearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -190.138 -39.0716 1.65
+      rotation 0 0 1 -0.2618053071795865
+      name "wall(33)"
+      size 0.1 9.6 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -196.894 -64.2746 1.65
+      rotation 0 0 1 -0.2618053071795865
+      name "wall(32)"
+      size 0.1 7 5
+      appearance BakelitePlastic {
+      }
+    }
+    Window {
+      translation -195.881 -60.3986 1.65
+      rotation 0 0 1 2.87979
+      name "window(9)"
+      size 0.1 1.2 5
+      bottomWallHeight 1
+      windowHeight 1.5
+      wallAppearance BakelitePlastic {
+      }
+    }
+    Window {
+      translation -191.542 -44.2757 1.65
+      rotation 0 0 1 2.87979
+      name "window(3)"
+      size 0.1 1.2 5
+      bottomWallHeight 1
+      windowHeight 1.5
+      wallAppearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -193.205 -42.466 1.65
+      rotation 0 0 1 -1.8326053071795858
+      name "wall(31)"
+      size 0.1 4 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -198.141 -60.8893 1.65
+      rotation 0 0 1 -1.8326053071795858
+      name "wall(30)"
+      size 0.1 4 5
+      appearance BakelitePlastic {
+      }
+    }
+    Door {
+      hidden translation_5 0.001213123172627048 4.4369471623117995e-05 2.886579864025407e-15
+      hidden rotation_5 0 0 -1 0.0004486594015952703
+      translation -186.426 -57.5914 1.65
+      rotation 0 0 1 2.87979
+      name "door(6)"
+      size 0.1 1 5
+      position -0.0004486594013922656
+      wallAppearance BakelitePlastic {
+      }
+    }
+    Door {
+      hidden translation_5 0.0012131231726272146 4.436947162350657e-05 2.886579864025407e-15
+      hidden rotation_5 0 0 -1 0.0004486594015952703
+      translation -184.636 -50.9862 1.65
+      rotation 0 0 1 2.87979
+      name "door(5)"
+      size 0.1 1 5
+      position -0.00044865940139260374
+      wallAppearance BakelitePlastic {
+      }
+    }
+    Door {
+      hidden translation_5 0.0012131231726270064 4.436947162345106e-05 2.886579864025407e-15
+      hidden rotation_5 0 0 -0.9999999999999999 0.0004486594015952703
+      translation -189.758 -49.0337 1.65
+      rotation 0 0 -1 1.8326
+      name "door(4)"
+      size 0.1 1 5
+      position -0.0004486594013921751
+      wallAppearance BakelitePlastic {
+      }
+    }
+    Door {
+      hidden translation_5 0.0012131231726271452 4.436947162350657e-05 2.886579864025407e-15
+      hidden rotation_5 0 0 -0.9999999999999999 0.0004486594015952703
+      translation -185.336 -50.2182 1.65
+      rotation 0 0 1 -1.8325953071795862
+      name "door(3)"
+      size 0.1 1 5
+      position -0.0004486594013924508
+      wallAppearance BakelitePlastic {
+      }
+    }
+    Door {
+      hidden translation_5 0.0014576882619369014 9.516183320390503e-05 4.440892098500626e-16
+      hidden rotation_5 0 0 -1 0.0009634576510804176
+      translation -187.253 -49.7018 1.65
+      rotation 0 0 1 -1.8325953071795862
+      name "door(2)"
+      size 0.1 1 5
+      position -0.000963457651230905
+      wallAppearance BakelitePlastic {
+      }
+    }
+    Door {
+      hidden translation_5 0.0012131231726272146 4.436947162350657e-05 2.886579864025407e-15
+      hidden rotation_5 0 0 -1 0.0004486594015952703
+      translation -190.943 -50.7558 1.65
+      rotation 0 0 1 1.309
+      name "door(1)"
+      size 0.1 1 5
+      position -0.00044865940139260374
+      wallAppearance BakelitePlastic {
+      }
+      frameAppearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -190.929 -52.8016 1.65
+      rotation 0 0 1 -0.2618053071795865
+      name "wall(29)"
+      size 0.1 4.05 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -193.632 -52.0757 1.65
+      rotation 0 0 1 -0.2618053071795865
+      name "wall(28)"
+      size 0.1 4 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -189.545 -53.1307 1.65
+      rotation 0 0 1 -0.2618053071795865
+      name "wall(27)"
+      size 0.1 4 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -186.898 -53.8688 1.65
+      rotation 0 0 1 -0.2618053071795865
+      name "wall(26)"
+      size 0.1 4.05 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -199.233 -57.3815 1.65
+      rotation 0 0 1 2.87979
+      name "wall(25)"
+      size 0.1 6.14 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -195.872 -44.8575 1.65
+      rotation 0 0 1 2.87979
+      name "wall(24)"
+      size 0.1 6 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -197.558 -51.1259 1.65
+      rotation 0 0 1 2.87979
+      name "wall(23)"
+      size 0.1 5 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -192.287 -52.4947 1.65
+      rotation 0 0 1 -1.8325953071795862
+      name "wall(22)"
+      size 0.1 11 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -195.176 -57.8234 1.65
+      rotation 0 0 1 -0.2618053071795865
+      name "wall(21)"
+      size 0.1 4.15 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -191.826 -58.6569 1.65
+      rotation 0 0 1 -0.2618053071795865
+      name "wall(20)"
+      size 0.1 4 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -188.417 -59.5484 1.65
+      rotation 0 0 1 -0.2618053071795865
+      name "wall(19)"
+      size 0.1 4 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -192.151 -46.5317 1.65
+      rotation 9.58979e-09 7.284e-08 1 -0.2618053071795865
+      name "wall(18)"
+      size 0.1 3.5 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -188.801 -47.5734 1.65
+      rotation 0 0 1 -0.2618053071795865
+      name "wall(17)"
+      size 0.1 3.3 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -185.459 -48.4888 1.65
+      rotation 0 0 1 -0.2618053071795865
+      name "wall(16)"
+      size 0.1 3.3 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -185.92 -55.7353 1.65
+      rotation 0 0 1 -0.2618053071795865
+      name "wall(15)"
+      size 0.1 3 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -185.14 -52.8749 1.65
+      rotation 0 0 1 -0.2618053071795865
+      name "wall(14)"
+      size 0.1 3 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -183.275 -50.7729 1.65
+      rotation 0 0 -1 -1.3089953071795861
+      name "wall(12)"
+      size 0.1 3.3 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -188.105 -53.6151 1.65
+      rotation 0 0 1 -1.8325953071795862
+      name "wall(11)"
+      size 0.1 11 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -194.878 -59.8894 1.65
+      rotation 0 0 -1 -1.3089953071795861
+      name "wall(10)"
+      size 0.1 1.75 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -190.989 -45.3084 1.65
+      rotation 0 0 -1 -1.3089953071795861
+      name "wall(9)"
+      size 0.1 1.7 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -181.409 -47.8665 1.65
+      rotation 0 0 -1 -1.3089953071795861
+      name "wall(8)"
+      size 0.1 1.25 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -184.616 -47.0169 1.65
+      rotation 0 0 1 -1.8325953071795862
+      name "wall(7)"
+      size 0.1 3.075 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -188.588 -61.5522 1.65
+      rotation 0 0 1 -1.8325953071795862
+      name "wall(6)"
+      size 0.1 3.075 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -181.012 -48.6127 1.65
+      rotation 0 0 1 2.87979
+      name "wall(5)"
+      size 0.1 1.2 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -185.354 -62.4 1.65
+      rotation 0 0 -1 -1.3089953071795861
+      name "wall(4)"
+      size 0.1 1.25 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -181.842 -51.6567 1.65
+      rotation 0 0 1 2.87979
+      name "wall(3)"
+      size 0.1 3 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -184.64 -62.1271 1.65
+      rotation 0 0 1 2.87979
+      name "wall(2)"
+      size 0.1 1 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -183.718 -58.6725 1.65
+      rotation 0 0 1 2.87979
+      name "wall(1)"
+      size 0.1 3.86 5
+      appearance BakelitePlastic {
+      }
+    }
+    Wall {
+      translation -182.745 -54.9735 1.65
+      rotation 0 0 1 2.87979
+      size 0.1 1.6 5
+      appearance BakelitePlastic {
+      }
+    }
+    Window {
+      translation -182.394 -53.668 1.65
+      rotation 0 0 1 -0.261795307179586
+      size 0.1 1.2 5
+      bottomWallHeight 1
+      windowHeight 1.5
+      wallAppearance BakelitePlastic {
+      }
+    }
+    Window {
+      translation -183.081 -56.3079 1.65
+      rotation 0 0 1 -0.261795307179586
+      name "window(1)"
+      size 0.1 1.2 5
+      bottomWallHeight 1
+      windowHeight 1.5
+      wallAppearance BakelitePlastic {
+      }
+    }
+    Window {
+      translation -181.298 -49.6898 1.65
+      rotation 0 0 1 -0.261795307179586
+      name "window(2)"
+      size 0.1 1.2 5
+      bottomWallHeight 1
+      windowHeight 1.5
+      wallAppearance BakelitePlastic {
+      }
+    }
+    Window {
+      translation -186.525 -62.1021 1.65
+      rotation 0 0 1 -1.8325953071795862
+      name "window(4)"
+      size 0.1 1.2 5
+      bottomWallHeight 1
+      windowHeight 1.5
+      wallAppearance BakelitePlastic {
+      }
+    }
+    Window {
+      translation -193.498 -60.2526 1.65
+      rotation 0 0 1 -1.8325953071795862
+      name "window(6)"
+      size 0.1 1.2 5
+      bottomWallHeight 1
+      windowHeight 1.5
+      wallAppearance BakelitePlastic {
+      }
+    }
+    Window {
+      translation -189.601 -45.6776 1.65
+      rotation 0 0 1 -1.8325953071795862
+      name "window(8)"
+      size 0.1 1.2 5
+      bottomWallHeight 1
+      windowHeight 1.5
+      wallAppearance BakelitePlastic {
+      }
+    }
+    Window {
+      translation -182.55 -47.5662 1.65
+      rotation 0 0 1 -1.8325953071795862
+      name "window(7)"
+      size 0.1 1.2 5
+      bottomWallHeight 1
+      windowHeight 1.5
+      wallAppearance BakelitePlastic {
+      }
+    }
+    Window {
+      translation -184.377 -61.1051 1.65
+      rotation 0 0 1 -0.261795307179586
+      name "window(5)"
+      size 0.1 1.2 5
+      bottomWallHeight 1
+      windowHeight 1.5
+      wallAppearance BakelitePlastic {
+      }
+    }
+  ]
+  name "suite_3"
+}
+StraightStairs {
+  translation -248.068 30.5466 1.48
+  rotation 0 0 1 -2.3561953071795863
+  nSteps 8
+}

@@ -1,0 +1,12 @@
+running egg_info
+writing build/f24_robotics_inside_simulation/f24_robotics_inside_simulation.egg-info/PKG-INFO
+writing dependency_links to build/f24_robotics_inside_simulation/f24_robotics_inside_simulation.egg-info/dependency_links.txt
+writing entry points to build/f24_robotics_inside_simulation/f24_robotics_inside_simulation.egg-info/entry_points.txt
+writing requirements to build/f24_robotics_inside_simulation/f24_robotics_inside_simulation.egg-info/requires.txt
+writing top-level names to build/f24_robotics_inside_simulation/f24_robotics_inside_simulation.egg-info/top_level.txt
+reading manifest file 'build/f24_robotics_inside_simulation/f24_robotics_inside_simulation.egg-info/SOURCES.txt'
+writing manifest file 'build/f24_robotics_inside_simulation/f24_robotics_inside_simulation.egg-info/SOURCES.txt'
+running build
+running install
+running install_data
+error: can't copy 'resource/f24_robotics_inside_simulation': doesn't exist or not a regular file
